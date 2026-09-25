@@ -1,0 +1,18 @@
+{
+  "title": "Kaijugen anatomical parts study",
+  "created": "2026-09-24",
+  "creator": "Softmax / Polyworld contributors, with Codex authoring assistance",
+  "process": "Native Blender quad cages authored from measured reference contours, cross sections and facial loop guides; inferred depth, live bilateral mirrors, procedural studio shading and actual mesh-edge renders.",
+  "generator": "scripts/build_parts.py",
+  "reference": {
+    "description": "User-supplied six-panel wireframe diagram: Head, Body, Tail, Arm, Leg, Foot.",
+    "filename": "codex-clipboard-927c7ef0-cc2e-40d8-bbdb-17d096b4248a.png",
+    "sha256": "b6f752c5f22396b284a3c7bed25a057db9bf288969d7edd2ba19cc64e6119304",
+    "included": false,
+    "license": "Reference rights remain with the source; no redistribution or relicensing of the bitmap."
+  },
+  "externalAssets": [],
+  "artLicense": "CC0-1.0",
+  "codeLicense": "MIT",
+  "revision": "Revised mirrored facial projection, brow depths, eye apertures and cheek contours; nine anatomical cages including separate small body and limb variants; forward-leaning necks, tapered hip insets, integral toe caps and quad redirects from twenty toe columns to twelve ankle columns. Six neutral shadow-catcher studios. Compared with the supplied diagram using an exact unwarped 50% overlay and independent visual review."
+}

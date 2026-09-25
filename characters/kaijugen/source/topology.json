@@ -1,0 +1,101 @@
+[
+  {
+    "part": "HEAD",
+    "variant": "large",
+    "vertices": 261,
+    "faces": 270,
+    "quads": 232,
+    "triangles": 38,
+    "boundaryEdges": 20,
+    "sharedSmallView": true,
+    "mirrorAxis": "X"
+  },
+  {
+    "part": "BODY",
+    "variant": "large",
+    "vertices": 194,
+    "faces": 208,
+    "quads": 176,
+    "triangles": 32,
+    "boundaryEdges": 0,
+    "sharedSmallView": false,
+    "mirrorAxis": "X"
+  },
+  {
+    "part": "BODY",
+    "variant": "small",
+    "vertices": 194,
+    "faces": 208,
+    "quads": 176,
+    "triangles": 32,
+    "boundaryEdges": 0,
+    "sharedSmallView": false,
+    "mirrorAxis": "X"
+  },
+  {
+    "part": "TAIL",
+    "variant": "large",
+    "vertices": 158,
+    "faces": 168,
+    "quads": 144,
+    "triangles": 24,
+    "boundaryEdges": 0,
+    "sharedSmallView": true,
+    "mirrorAxis": "Y"
+  },
+  {
+    "part": "ARM",
+    "variant": "large",
+    "vertices": 146,
+    "faces": 156,
+    "quads": 132,
+    "triangles": 24,
+    "boundaryEdges": 0,
+    "sharedSmallView": false,
+    "mirrorAxis": null
+  },
+  {
+    "part": "ARM",
+    "variant": "small",
+    "vertices": 146,
+    "faces": 156,
+    "quads": 132,
+    "triangles": 24,
+    "boundaryEdges": 0,
+    "sharedSmallView": false,
+    "mirrorAxis": null
+  },
+  {
+    "part": "LEG",
+    "variant": "large",
+    "vertices": 134,
+    "faces": 144,
+    "quads": 120,
+    "triangles": 24,
+    "boundaryEdges": 0,
+    "sharedSmallView": false,
+    "mirrorAxis": null
+  },
+  {
+    "part": "LEG",
+    "variant": "small",
+    "vertices": 134,
+    "faces": 144,
+    "quads": 120,
+    "triangles": 24,
+    "boundaryEdges": 0,
+    "sharedSmallView": false,
+    "mirrorAxis": null
+  },
+  {
+    "part": "FOOT",
+    "variant": "large",
+    "vertices": 150,
+    "faces": 164,
+    "quads": 132,
+    "triangles": 32,
+    "boundaryEdges": 0,
+    "sharedSmallView": true,
+    "mirrorAxis": "X"
+  }
+]

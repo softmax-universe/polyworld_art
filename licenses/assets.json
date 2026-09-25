@@ -71,6 +71,14 @@
       "origin": "Metta-AI/polyworld checkout based on commit 4345758. Project imagegen textures created on 2026-09-08, procedural masks from the experiment generator, and project-rendered previews. Existing water asset CC0 dedication retained.",
       "changes": "Moved current files into terrain/cartoon_water without importing history. Preserved all PNG bytes. Renamed paths and updated prompt terminology to the generic cartoon water name, documenting that the prompt notes were edited.",
       "notice": "terrain/cartoon_water/license.md"
+    },
+    "kaijugenStudy": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors, with Codex authoring assistance",
+      "title": "Kaijugen anatomical parts study",
+      "origin": "Created in Blender on 2026-09-24 using characters/kaijugen/source/scripts/build_parts.py. User-provided shape reference and its SHA-256 are documented in characters/kaijugen/source/provenance.json; the reference bitmap is not bundled or relicensed.",
+      "changes": "New editable quad cages, live bilateral mirrors, linked symmetric views and independent small body and limb variants, procedural materials, studio scenes and wireframe/shaded renders. No imported meshes or external textures.",
+      "notice": "characters/kaijugen/license.md"
     }
   },
   "files": [
@@ -8508,6 +8516,76 @@
       "source": "code",
       "sha256": "760fe6d28c7f95782f77a449ac4d5283159be553c8404d702c584c441cf9eb8c",
       "bytes": 3060
+    },
+    {
+      "path": "characters/kaijugen/license.md",
+      "license": "CC0-1.0",
+      "source": "kaijugenStudy",
+      "sha256": "9f537cfee551418c96c4ba4c8caf9fd1f0535819939dbc47d9eb2207da282ad2",
+      "bytes": 965
+    },
+    {
+      "path": "characters/kaijugen/renders/parts_shaded.png",
+      "license": "CC0-1.0",
+      "source": "kaijugenStudy",
+      "sha256": "a17b0e0fec07dbf3ba03da84c10f6262ded59ca0901b6c7b1d32d74559aeb15c",
+      "bytes": 1378736
+    },
+    {
+      "path": "characters/kaijugen/renders/parts_wireframe.png",
+      "license": "CC0-1.0",
+      "source": "kaijugenStudy",
+      "sha256": "9f927732a2d946f74ca37ba2f7084b201f96ed355ec3ba09df1b24c05a2dc3a1",
+      "bytes": 1688376
+    },
+    {
+      "path": "characters/kaijugen/source/parts_study.blend",
+      "license": "CC0-1.0",
+      "source": "kaijugenStudy",
+      "sha256": "1e746b3fae6c9fa98722ff46138323182a5497df23a29c7208bcc52ea8cbe000",
+      "bytes": 210741
+    },
+    {
+      "path": "characters/kaijugen/source/parts_study.md",
+      "license": "CC0-1.0",
+      "source": "kaijugenStudy",
+      "sha256": "9a044cb4e7b6495f645d3c1399a063ad74cacb64f5c4e152df0a7248d18ff2e0",
+      "bytes": 3101
+    },
+    {
+      "path": "characters/kaijugen/source/provenance.json",
+      "license": "CC0-1.0",
+      "source": "kaijugenStudy",
+      "sha256": "ddf389cc9d1dc0382f207312e403770cf8ce741472b6f60e0c12251e6911514c",
+      "bytes": 1340
+    },
+    {
+      "path": "characters/kaijugen/source/scripts/build_parts.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "0fef5d77af13c45a9e0d20ce8488d5577e9da627d83fa059e2505da09d2e04b2",
+      "bytes": 53379
+    },
+    {
+      "path": "characters/kaijugen/source/scripts/compare_parts.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "a638d304ab304432fcd33cdd91e691ece1111c50bdc177ed67d040cfc43b78d7",
+      "bytes": 2552
+    },
+    {
+      "path": "characters/kaijugen/source/scripts/verify_parts.py",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "5c8c8ccc597b70cb79eef8accf696a884c1bf4ae984ec0c3f486ab2df99c8903",
+      "bytes": 3008
+    },
+    {
+      "path": "characters/kaijugen/source/topology.json",
+      "license": "CC0-1.0",
+      "source": "kaijugenStudy",
+      "sha256": "c0db19cf09967ced88744f3b2eafec667c74c5329f34b692f7ddbe523b854979",
+      "bytes": 1864
     },
     {
       "path": "fonts/OFL-OverpassMono.txt",
