@@ -1,0 +1,124 @@
+{
+  "source_url": "https://opengameart.org/content/fantasy-accessory-sfx-library",
+  "download_url": "https://opengameart.org/sites/default/files/accessory.zip",
+  "creator": "Vehicle / Jan Schupke",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "archive_sha256": "1d1166b2469be771d8894cd77ffcd6d500bcb676e2b6cb1c9cecacf97e957217",
+  "archive_bytes": 14561483,
+  "source_page_sha256": "0c99f9f672492d9bd020e4a4f33ad6ff779c54cd2d67462ce640222dee975736",
+  "source_license_statement": "CC0",
+  "original_notice_file": "readme.txt",
+  "source_evidence": "Full unmodified source-page.html and original.zip retained in local download library. The creator-submitted source page explicitly identifies this pack as CC0.",
+  "files": [
+    {
+      "file": "wood-bowl-hit-wood-spoon-01.ogg",
+      "cues": [
+        "SelectSound"
+      ],
+      "original_file": "sfx/wood-bowl-hit-wood-spoon-01.wav",
+      "original_sha256": "dac92db04d0a040d1d862638b26f0d0c0218b8fa27a2535728103ef24bcc8858",
+      "sha256": "4c9a88f26076a7545f03b486b5e50fe9cb1f1fdbdee1da7fd751ea29fce69cca",
+      "bytes": 5925,
+      "duration_seconds": 0.14066,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          668,
+          6871
+        ],
+        "gain_linear": 0.63095734,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "coins-shake-01.ogg",
+      "cues": [
+        "PurchaseSound",
+        "DeliverGoldSound"
+      ],
+      "original_file": "sfx/coins-shake-01.wav",
+      "original_sha256": "11c1eb2f1052e83e50d7cd73454104cd684041a4c78f2500001b3bb75b46c290",
+      "sha256": "b310734081ae37882e54bf577e593cc7ae1824a8018fc93951743e8ab2eee158",
+      "bytes": 20685,
+      "duration_seconds": 0.92195,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          8088,
+          48746
+        ],
+        "gain_linear": 0.63095734,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    }
+  ]
+}

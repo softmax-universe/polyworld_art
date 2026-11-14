@@ -1,0 +1,100 @@
+{
+  "creator": "Graciano Choc / gchoc / Bz.gamedev",
+  "source_url": "https://opengameart.org/node/161646",
+  "download_url": "https://opengameart.org/sites/default/files/castlefanfare_0.ogg",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "source_page_sha256": "5e57606434acfbfb9e75f3ae60fac77e1020672499d75ccd48b35f895ad9b865",
+  "source_license_statement": "CC0",
+  "original_notice_file": null,
+  "source_evidence": "Unmodified creator page and original audio retained in the local download library. No separate license file was supplied; LICENSE.txt records the creator-page declaration.",
+  "files": [
+    {
+      "file": "victory-fanfare.ogg",
+      "cues": [
+        "VictorySound"
+      ],
+      "original_file": "castlefanfare_0.ogg",
+      "original_sha256": "a7d37b48477f22f6699eacffebade031079fa0649d0d3b3fbe2bd2da4f6c71eb",
+      "sha256": "5151ed7aab97796a86757752a3a0e22a6cd9197301ca2ceb262090e585827a02",
+      "bytes": 25953,
+      "duration_seconds": 2.42424036,
+      "transformations": {
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "source_crop_seconds": [
+          0.0,
+          null
+        ],
+        "fade_in_seconds": 0.005,
+        "fade_out_seconds": 0.1,
+        "normalization": "Two-pass EBU R128 loudnorm, target -20 LUFS, true-peak ceiling -6 dBTP, LRA 11.",
+        "measured_source": {
+          "input_i": "-13.98",
+          "input_tp": "-1.07",
+          "input_lra": "0.00",
+          "input_thresh": "-24.20",
+          "output_i": "-19.98",
+          "output_tp": "-7.10",
+          "output_lra": "0.00",
+          "output_thresh": "-30.20",
+          "normalization_type": "linear",
+          "target_offset": "-0.02"
+        },
+        "measured_output_lufs": -19.95,
+        "measured_output_true_peak_dbtp": -7.11,
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "processing_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-i",
+          "/Users/me/Downloads/polyworld-cc0-audio/gchoc-trumpet-fanfare/original/castlefanfare_0.ogg",
+          "-af",
+          "aformat=channel_layouts=mono,aresample=44100,afade=t=in:d=0.005,afade=t=out:st=2.3242403628117914:d=0.10,loudnorm=I=-20:TP=-6:LRA=11:linear=true:measured_I=-13.98:measured_TP=-1.07:measured_LRA=0.00:measured_thresh=-24.20:offset=-0.02",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-f",
+          "s16le",
+          "-"
+        ],
+        "processing_order": "Downmix, resample, trim, fade and normalize to raw 16-bit PCM; encode PCM separately so OGG granule counts exactly match decoded samples.",
+        "encoding_command": [
+          "ffmpeg",
+          "-y",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "/Users/me/p/polyworld_art/sounds/gchoc-trumpet-fanfare/victory-fanfare.ogg"
+        ],
+        "purpose": "Short, one-shot result-screen fanfare. No looping or pitch changes.",
+        "encoder": "libvorbis",
+        "vorbis_quality": 6,
+        "output_sample_rate": 44100
+      },
+      "original_file_kind": "Creator-uploaded original OGG download"
+    }
+  ],
+  "download_kind": "original-file",
+  "download_file": "castlefanfare_0.ogg",
+  "download_sha256": "a7d37b48477f22f6699eacffebade031079fa0649d0d3b3fbe2bd2da4f6c71eb",
+  "download_bytes": 61363
+}

@@ -1,0 +1,11 @@
+CC0 1.0 Universal
+
+Creator: Graciano Choc / gchoc / Bz.gamedev
+Source: https://opengameart.org/node/161646
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+The creator's OpenGameArt submission identifies this recording as CC0.
+The original license declaration is preserved in source-page.html in the
+local download archive ~/Downloads/polyworld-cc0-audio/gchoc-trumpet-fanfare/.
+The complete CC0 legal text is preserved in CC0-1.0.txt.
+This file records source metadata; it is not a separate license grant.

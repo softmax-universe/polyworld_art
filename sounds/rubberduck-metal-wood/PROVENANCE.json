@@ -1,0 +1,546 @@
+{
+  "source_url": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+  "download_url": "https://opengameart.org/sites/default/files/100-CC0-wood-metal-SFX.zip",
+  "creator": "rubberduck",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "archive_sha256": "be6eba63b03409ac0c77787a956b1503a7c186403d04aef9725c52644a4b7878",
+  "archive_bytes": 1990361,
+  "source_page_sha256": "5793ed1059fa74b93228e2138148c7032afb8e05cfd705365f08a7d866427084",
+  "source_license_statement": "CC0",
+  "original_notice_file": null,
+  "source_evidence": "Full unmodified source-page.html and original.zip retained in local download library. The creator-submitted source page explicitly identifies this pack as CC0.",
+  "files": [
+    {
+      "file": "wood_hit_01.ogg",
+      "cues": [
+        "BuildingHitSound"
+      ],
+      "original_file": "wood_hit_01.ogg",
+      "original_sha256": "cf3211d80094cd363e8e56906ad42a8baf10f31ef9e197f3f63464a957bade3a",
+      "sha256": "c7b189d9e9e17718aa06e202b6abb271dca95fca7d5b89aa2a32cc36bb1f1064",
+      "bytes": 6505,
+      "duration_seconds": 0.22125,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          75,
+          9832
+        ],
+        "gain_linear": 0.68965839,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "wood_hit_02.ogg",
+      "cues": [
+        "BuildingHitSound",
+        "BuildPlaceSound"
+      ],
+      "original_file": "wood_hit_02.ogg",
+      "original_sha256": "533144d0633e756d91a7ee6d3a1f00bed81ad85d221232c5e4812e4fd7b14177",
+      "sha256": "5d91653abdb852f63b4fc1f14097720b8958a05f4eb640007528393be60dcec4",
+      "bytes": 7246,
+      "duration_seconds": 0.29626,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          109,
+          13174
+        ],
+        "gain_linear": 0.64097285,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "wood_breaking_01.ogg",
+      "cues": [
+        "BuildingDeathSound"
+      ],
+      "original_file": "wood_breaking_01.ogg",
+      "original_sha256": "83a0e17e536a17897d5915e88c9e70d0be06d0a43bb3a38f44314ada46b06a3e",
+      "sha256": "fa84b103bc0f8a05cd8a698853e2f0f094fd2fde4f766b2d4713b8c03e8a3d60",
+      "bytes": 9256,
+      "duration_seconds": 0.42016,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          1149,
+          19678
+        ],
+        "gain_linear": 0.63093809,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "wood_breaking_02.ogg",
+      "cues": [
+        "BuildingDeathSound"
+      ],
+      "original_file": "wood_breaking_02.ogg",
+      "original_sha256": "042e97ceaa551dd3fcccba0e9bdf1e8145133ac4d2ee0b0cbcd0ee698b7cb229",
+      "sha256": "d3a37db20934783c6c2ea72c423a5e0003fb1fc0b3bc916b780351a25bd5e9e5",
+      "bytes": 9473,
+      "duration_seconds": 0.51862,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          0,
+          22871
+        ],
+        "gain_linear": 0.65623169,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "wood_hit_03.ogg",
+      "cues": [
+        "ChopSound"
+      ],
+      "original_file": "wood_hit_03.ogg",
+      "original_sha256": "0f78a5cbe44d2ee45dfc1709f72af87bcbe5e3a8ad369b52535cfe6dbbd626a6",
+      "sha256": "3d602e30ba50d6468b9030ed696660e690051ea8696e51f2334dd95263ad78aa",
+      "bytes": 7087,
+      "duration_seconds": 0.28900227,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          0,
+          12745
+        ],
+        "gain_linear": 0.5011719386067147,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "processing_order": "Decode/resample, crop, fade each tap, place taps, sum, apply gain, round to signed 16-bit PCM, encode.",
+        "sample_placements": [
+          {
+            "offset_samples": 0,
+            "gain_linear": 1.0
+          }
+        ],
+        "purpose": "Short wooden impact for an axe chopping wood."
+      }
+    },
+    {
+      "file": "hammer_01.ogg",
+      "cues": [
+        "MineSound"
+      ],
+      "original_file": "hammer_01.ogg",
+      "original_sha256": "ebbeac7365b2b4f4eaa6829a3c09e0be46e20950f8322eb5c72a616679d6c482",
+      "sha256": "d9ade1b4103f4f0a4f1d09f90abb09c96309094c4146b9ec5f25a2459f585770",
+      "bytes": 6949,
+      "duration_seconds": 0.26478458,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          661,
+          12338
+        ],
+        "gain_linear": 0.5130397402144589,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "processing_order": "Decode/resample, crop, fade each tap, place taps, sum, apply gain, round to signed 16-bit PCM, encode.",
+        "sample_placements": [
+          {
+            "offset_samples": 0,
+            "gain_linear": 1.0
+          }
+        ],
+        "purpose": "Short metal tool impact for mining ore."
+      }
+    },
+    {
+      "file": "hammer_03.ogg",
+      "cues": [
+        "MineSound"
+      ],
+      "original_file": "hammer_03.ogg",
+      "original_sha256": "98052d53c8a27747fe08cc0a7e0e7ff75a260bd6bea7b6de49968840dccda090",
+      "sha256": "670bd69ae051346824c8b7e20a905d3af9a9b525dd762e41de928277f5ac0c67",
+      "bytes": 6364,
+      "duration_seconds": 0.21054422,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          0,
+          9285
+        ],
+        "gain_linear": 0.5328315786075997,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "processing_order": "Decode/resample, crop, fade each tap, place taps, sum, apply gain, round to signed 16-bit PCM, encode.",
+        "sample_placements": [
+          {
+            "offset_samples": 0,
+            "gain_linear": 1.0
+          }
+        ],
+        "purpose": "Short metal tool impact for mining ore."
+      }
+    },
+    {
+      "file": "wood_falling_01.ogg",
+      "cues": [
+        "DeliverWoodSound"
+      ],
+      "original_file": "wood_falling_01.ogg",
+      "original_sha256": "38c5307455f35c3b61e06fbd01cae41f245cd45b12807747bd5830b2ff7448d1",
+      "sha256": "f12827565ac3a77140bcef7abefc32c71501d7bc502d38c7d2a1d22efd02bd41",
+      "bytes": 10561,
+      "duration_seconds": 0.54961451,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          37,
+          24275
+        ],
+        "gain_linear": 0.5011719386067147,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "processing_order": "Decode/resample, crop, fade each tap, place taps, sum, apply gain, round to signed 16-bit PCM, encode.",
+        "sample_placements": [
+          {
+            "offset_samples": 0,
+            "gain_linear": 1.0
+          }
+        ],
+        "purpose": "Wood pieces dropping for delivery of a gathered load."
+      }
+    },
+    {
+      "file": "wood-hammer-start.ogg",
+      "cues": [
+        "BuildStartSound"
+      ],
+      "original_file": "wood_hammer_01.ogg",
+      "original_sha256": "7af2b82ed659153da6c3dd69024e15bdb3c3c5b101c4086ee2181c1f846fe28a",
+      "sha256": "b312ce1495b1ce63c3499b14240e1c18ad95b580e00cf7e2729afbaf5bc16fe9",
+      "bytes": 9098,
+      "duration_seconds": 0.51337868,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          0,
+          12938
+        ],
+        "gain_linear": 0.5011719386067147,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "processing_order": "Decode/resample, crop, fade each tap, place taps, sum, apply gain, round to signed 16-bit PCM, encode.",
+        "sample_placements": [
+          {
+            "offset_samples": 0,
+            "gain_linear": 1.0
+          },
+          {
+            "offset_samples": 9702,
+            "gain_linear": 0.82
+          }
+        ],
+        "purpose": "Two short wooden hammer taps for the first construction work only; the recording is not looped."
+      }
+    }
+  ]
+}

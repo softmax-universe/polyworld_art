@@ -1,0 +1,75 @@
+{
+  "creator": "BenjaminNelan",
+  "title": "Rooster Crow 1",
+  "source_url": "https://freesound.org/people/BenjaminNelan/sounds/435508/",
+  "download_url": "https://cdn.freesound.org/previews/435/435508_1196020-hq.mp3",
+  "license": "CC0-1.0",
+  "download_kind": "public-hq-preview",
+  "download_file": "source-hq-preview.mp3",
+  "download_sha256": "dd1369d41efac7883ce2ce041a19f02c5e2456177be7d0ec759679fd8541d650",
+  "download_bytes": 54006,
+  "note": "Single publicly linked HQ MP3 preview; original uploaded WAV requires login and was not downloaded.",
+  "download_date": "2026-11-14",
+  "source_page_sha256": "c8eb30cea532a390316048cd1c5f05cb76ffb9519895db9d7a3bdb226aa045e6",
+  "source_license_statement": "CC0",
+  "original_notice_file": null,
+  "source_evidence": "Unmodified creator-submitted source-page.html and downloaded source-hq-preview.mp3 retained in the local download library. The source page explicitly links the public HQ MP3 preview and declares Creative Commons 0. No login or original WAV download was used.",
+  "files": [
+    {
+      "file": "rooster-crow.ogg",
+      "cues": [
+        "DaybreakSound"
+      ],
+      "original_file": "source-hq-preview.mp3",
+      "original_file_kind": "Freesound public HQ MP3 preview, not the uploaded original WAV",
+      "original_sha256": "dd1369d41efac7883ce2ce041a19f02c5e2456177be7d0ec759679fd8541d650",
+      "sha256": "5f27b160ab44da1ee32c833d01fc7ef4d68b55e0625e373f107c78b3895d0792",
+      "bytes": 31760,
+      "duration_seconds": 2.15712,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          0,
+          95129
+        ],
+        "gain_linear": 1.05385765,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "note": "Complete decoded recording retained; no 2.2-second combat-effect cap."
+      }
+    }
+  ]
+}

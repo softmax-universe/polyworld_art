@@ -1,0 +1,231 @@
+{
+  "source_url": "https://opengameart.org/content/rpg-sound-pack",
+  "download_url": "https://opengameart.org/sites/default/files/rpg_sound_pack.zip",
+  "creator": "artisticdude",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "archive_sha256": "f80754a9c04854e30c9da89d0186540ad097309d98b41387b6e83029e2601421",
+  "archive_bytes": 12465564,
+  "source_page_sha256": "7a05465423cfda8c0b8630d8252c8bc61f492b48fb8b1e56c45d808d02d2c5a1",
+  "source_license_statement": "CC0",
+  "original_notice_file": null,
+  "source_evidence": "Full unmodified source-page.html and original.zip retained in local download library. The creator-submitted source page explicitly identifies this pack as CC0.",
+  "files": [
+    {
+      "file": "wood-small.ogg",
+      "cues": [
+        "ClickSound"
+      ],
+      "original_file": "RPG Sound Pack/inventory/wood-small.wav",
+      "original_sha256": "679184e2a0c37e68450f8f2b511daca8ce187af306789215197dc73c0193386e",
+      "sha256": "87d8dac2a74b0cd7e44de76ac93879e7a74351e8717a54344f7d65db54484898",
+      "bytes": 7592,
+      "duration_seconds": 0.22955,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          591,
+          10714
+        ],
+        "gain_linear": 0.6382816,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "swing2.ogg",
+      "cues": [
+        "SwordSound"
+      ],
+      "original_file": "RPG Sound Pack/battle/swing2.wav",
+      "original_sha256": "2e4064e294d136e06c40cc562df969493907e6873f39895ca86b4a6b2e034c6e",
+      "sha256": "6c31bf86363e66741024b78b5913c765917d3679212b171dd904a5d69af85f21",
+      "bytes": 5497,
+      "duration_seconds": 0.12023,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          252,
+          5554
+        ],
+        "gain_linear": 0.63913006,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "swing.ogg",
+      "cues": [
+        "BowSound"
+      ],
+      "original_file": "RPG Sound Pack/battle/swing.wav",
+      "original_sha256": "c7d50b9cb20ccda5aee6c023f4450915594061e36f3f9e78af241ca9fde0f817",
+      "sha256": "ddfa90b0b1f771423359f559358a99040fd66a1eaadc5df7ffbac9411e0725a9",
+      "bytes": 6054,
+      "duration_seconds": 0.14971,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          1067,
+          7669
+        ],
+        "gain_linear": 0.64430875,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "swing3.ogg",
+      "cues": [
+        "BowSound"
+      ],
+      "original_file": "RPG Sound Pack/battle/swing3.wav",
+      "original_sha256": "d725421956c9958de6d7a17c4fca299abe583a1800c59eaec358ec2e82d79bae",
+      "sha256": "4618834eb2c18b94cba6d983b956f3704b46dfdd7ea30fd65f873a6308f094cd",
+      "bytes": 5646,
+      "duration_seconds": 0.11744,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          908,
+          6087
+        ],
+        "gain_linear": 0.6549843,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    }
+  ]
+}

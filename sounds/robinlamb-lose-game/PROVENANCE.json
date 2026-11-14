@@ -1,0 +1,100 @@
+{
+  "creator": "Robin Lamb",
+  "source_url": "https://opengameart.org/content/lose-game-short-music-clip",
+  "download_url": "https://opengameart.org/sites/default/files/losegamemusic.wav",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "source_page_sha256": "def96ad2e1f64d5ec7802c0e1a931342678d0e3a2a54924dbd8b9e2b9e2a1b80",
+  "source_license_statement": "CC0",
+  "original_notice_file": null,
+  "source_evidence": "Unmodified creator page and original audio retained in the local download library. No separate license file was supplied; LICENSE.txt records the creator-page declaration.",
+  "files": [
+    {
+      "file": "defeat-fanfare.ogg",
+      "cues": [
+        "DefeatSound"
+      ],
+      "original_file": "losegamemusic.wav",
+      "original_sha256": "22ed00c5ffe5003135d9d927f9830e775c0f3c4ac08da4b6c4e116494b988f4f",
+      "sha256": "9e45eb4318ff2e7d0b6961eec432fd79bec535d026c32e10ecb7f5e224c10a1f",
+      "bytes": 74024,
+      "duration_seconds": 5.96,
+      "transformations": {
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "source_crop_seconds": [
+          0.16,
+          6.12
+        ],
+        "fade_in_seconds": 0.005,
+        "fade_out_seconds": 0.1,
+        "normalization": "Two-pass EBU R128 loudnorm, target -20 LUFS, true-peak ceiling -6 dBTP, LRA 11.",
+        "measured_source": {
+          "input_i": "-27.37",
+          "input_tp": "-2.52",
+          "input_lra": "11.50",
+          "input_thresh": "-39.81",
+          "output_i": "-25.22",
+          "output_tp": "-6.00",
+          "output_lra": "3.40",
+          "output_thresh": "-37.00",
+          "normalization_type": "dynamic",
+          "target_offset": "5.22"
+        },
+        "measured_output_lufs": -22.98,
+        "measured_output_true_peak_dbtp": -5.1,
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "processing_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-i",
+          "/Users/me/Downloads/polyworld-cc0-audio/robinlamb-lose-game/original/losegamemusic.wav",
+          "-af",
+          "aformat=channel_layouts=mono,aresample=44100,atrim=start=0.16:end=6.12,asetpts=PTS-STARTPTS,afade=t=in:d=0.005,afade=t=out:st=5.86:d=0.10,loudnorm=I=-20:TP=-6:LRA=11:linear=true:measured_I=-27.37:measured_TP=-2.52:measured_LRA=11.50:measured_thresh=-39.81:offset=5.22",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-f",
+          "s16le",
+          "-"
+        ],
+        "processing_order": "Downmix, resample, trim, fade and normalize to raw 16-bit PCM; encode PCM separately so OGG granule counts exactly match decoded samples.",
+        "encoding_command": [
+          "ffmpeg",
+          "-y",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "/Users/me/p/polyworld_art/sounds/robinlamb-lose-game/defeat-fanfare.ogg"
+        ],
+        "purpose": "Short, one-shot result-screen fanfare. No looping or pitch changes.",
+        "encoder": "libvorbis",
+        "vorbis_quality": 6,
+        "output_sample_rate": 44100
+      },
+      "original_file_kind": "Creator-uploaded original WAV download"
+    }
+  ],
+  "download_kind": "original-file",
+  "download_file": "losegamemusic.wav",
+  "download_sha256": "22ed00c5ffe5003135d9d927f9830e775c0f3c4ac08da4b6c4e116494b988f4f",
+  "download_bytes": 1220454
+}

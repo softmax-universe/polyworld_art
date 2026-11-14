@@ -327,6 +327,126 @@
       "origin": "Existing original project Vanguard knight and shield. Details in characters/chargen/source/gota/vanguard_knight/team_colors.json.",
       "changes": "Recovered material selectors for the cape, helmet plume, and shield face. Ivory armor, gold trim and other authored materials remain unchanged. Runtime part IDs and geometry are unchanged. Source and skill recipes retain the selectors on rebuild.",
       "notice": "LICENSE"
+    },
+    "sound-artisticdude-rpg": {
+      "license": "CC0-1.0",
+      "creator": "artisticdude",
+      "title": "artisticdude-rpg",
+      "origin": "https://opengameart.org/content/rpg-sound-pack",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors.",
+      "notice": "sounds/artisticdude-rpg/LICENSE.txt"
+    },
+    "sound-kenney-rpg": {
+      "license": "CC0-1.0",
+      "creator": "Kenney",
+      "title": "kenney-rpg",
+      "origin": "https://kenney.nl/assets/rpg-audio",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors. The cloth-hover derivative uses a 0.22-second crop, 180 Hz high-pass and 6500 Hz low-pass filters, and longer soft fades for button hover feedback. The chop derivative uses a -6 dBFS peak target with short edge fades for harvesting feedback; its exact processing is preserved in PROVENANCE.json.",
+      "notice": "sounds/kenney-rpg/LICENSE.txt"
+    },
+    "sound-rubberduck-rpg": {
+      "license": "CC0-1.0",
+      "creator": "rubberduck",
+      "title": "rubberduck-rpg",
+      "origin": "https://opengameart.org/content/80-cc0-rpg-sfx",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors.",
+      "notice": "sounds/rubberduck-rpg/LICENSE.txt"
+    },
+    "sound-vehicle-accessories": {
+      "license": "CC0-1.0",
+      "creator": "Vehicle / Jan Schupke",
+      "title": "vehicle-accessories",
+      "origin": "https://opengameart.org/content/fantasy-accessory-sfx-library",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors. Coin shaking is also used for gold delivery; cue assignments are recorded in PROVENANCE.json.",
+      "notice": "sounds/vehicle-accessories/LICENSE.txt"
+    },
+    "sound-vehicle-weapons-apparel": {
+      "license": "CC0-1.0",
+      "creator": "Vehicle / Jan Schupke",
+      "title": "vehicle-weapons-apparel",
+      "origin": "https://opengameart.org/content/fantasy-weapons-and-apparel-sfx-library",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors.",
+      "notice": "sounds/vehicle-weapons-apparel/LICENSE.txt"
+    },
+    "sound-vehicle-tinysized": {
+      "license": "CC0-1.0",
+      "creator": "Vehicle / Jan Schupke",
+      "title": "vehicle-tinysized",
+      "origin": "https://opengameart.org/content/fantasy-sound-effects-tinysized-sfx",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors.",
+      "notice": "sounds/vehicle-tinysized/LICENSE.txt"
+    },
+    "sound-rubberduck-creatures-2": {
+      "license": "CC0-1.0",
+      "creator": "rubberduck",
+      "title": "rubberduck-creatures-2",
+      "origin": "https://opengameart.org/content/80-cc0-creture-sfx-2",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors.",
+      "notice": "sounds/rubberduck-creatures-2/LICENSE.txt"
+    },
+    "sound-rubberduck-metal-wood": {
+      "license": "CC0-1.0",
+      "creator": "rubberduck",
+      "title": "rubberduck-metal-wood",
+      "origin": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+      "changes": "Selected game-used sounds only. Encoded directly from the original 44100 Hz processed samples to mono Ogg Vorbis quality 6 with libvorbis, after conservative silence trimming, peak normalization with maximum 4x gain, and edge fades. No 32000 Hz intermediate was used. Exact crop/gain/hash per file in pack PROVENANCE.json. Original pack separation retained. Source and transformation metadata prepared by Polyworld contributors. Economy effects use a -6 dBFS peak target. The construction-start derivative places two faded wood hammer taps 0.22 seconds apart, once per trigger; exact sample placement and processing order are preserved in PROVENANCE.json.",
+      "notice": "sounds/rubberduck-metal-wood/LICENSE.txt"
+    },
+    "sound-benjaminnelan-rooster": {
+      "license": "CC0-1.0",
+      "creator": "BenjaminNelan",
+      "title": "Rooster Crow 1",
+      "origin": "https://freesound.org/people/BenjaminNelan/sounds/435508/",
+      "changes": "Public HQ MP3 preview converted to mono 44.1 kHz Ogg Vorbis quality 6, with peak normalization and short edge fades. The complete rooster crow is retained. Source is explicitly a public preview, not the login-only uploaded WAV. Exact source/output hashes and transformations in PROVENANCE.json.",
+      "notice": "sounds/benjaminnelan-rooster/LICENSE.txt"
+    },
+    "sound-gchoc-trumpet-fanfare": {
+      "license": "CC0-1.0",
+      "creator": "Graciano Choc / gchoc / Bz.gamedev",
+      "origin": "https://opengameart.org/node/161646",
+      "changes": "Converted to mono 44.1 kHz Ogg Vorbis quality 6. Normalized toward -20 LUFS with a -6 dBTP ceiling and short edge fades. Complete victory phrase retained. Exact processing, source/output hashes, and measured levels in PROVENANCE.json.",
+      "notice": "sounds/gchoc-trumpet-fanfare/LICENSE.txt",
+      "title": "Trumpet Fanfare"
+    },
+    "sound-robinlamb-lose-game": {
+      "license": "CC0-1.0",
+      "creator": "Robin Lamb",
+      "origin": "https://opengameart.org/content/lose-game-short-music-clip",
+      "changes": "Converted to mono 44.1 kHz Ogg Vorbis quality 6. Normalized toward -20 LUFS with a -6 dBTP ceiling and short edge fades. Defeat cropped from 0.16 to 6.12 seconds, preserving its cadence and decay. Exact processing, source/output hashes, and measured levels in PROVENANCE.json.",
+      "notice": "sounds/robinlamb-lose-game/LICENSE.txt",
+      "title": "Lose Game Short Music Clip"
+    },
+    "sound-sachajulien-distant-wolves": {
+      "license": "CC0-1.0",
+      "creator": "Sacha.Julien",
+      "title": "Adult and young wolves howling far away",
+      "origin": "https://freesound.org/people/Sacha.Julien/sounds/753896/",
+      "notice": "sounds/sachajulien-distant-wolves/LICENSE.txt",
+      "changes": "Public HQ MP3 preview cropped from 0.4 to 3.2 seconds, downmixed to mono 44.1 kHz, given 100 ms onset / 250 ms ending fades, attenuated to -14 dBFS peak, and encoded as Ogg Vorbis quality 6. Original WAV was not downloaded. Exact processing and hashes in PROVENANCE.json."
+    },
+    "gotaMenu": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Gods of the Arena main menu artwork and prompts",
+      "origin": "Existing project menu artwork and six generation prompts committed in 7049a83d3ca6958c3a0c203fc318f008c64e225a on 2026-10-27. The prompts in themes/gota/menu/ describe extraction of the background, logo and buttons from a supplied project menu image. That supplied reference bitmap is not retained. Project artwork, UI images and logos are covered by the repository dedication in LICENSE.",
+      "changes": "Registered the already committed PNGs and retained prompts without changing their bytes. The prompts document removal of menu overlays from the background and lettering from buttons, preservation of project character designs, and transparent output for the logo and button artwork.",
+      "notice": "LICENSE"
+    },
+    "lvdMenu": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Light vs Dark main menu artwork",
+      "origin": "Existing project menu artwork committed in 1930a50fb08b443b3c942e1b2a2486bffbec134e on 2026-11-05. themes/lvd/menu/README.md records the background as an actual Light vs Dark game render with seed 2026, four bundled base bots, 90 simulated seconds, spectator visibility, camera distance 90 and 1672x941 resolution, captured before HUD rendering with floating bars disabled. The logo derives from the registered CC0 themes/lvd/lvd_logo.png and the buttons from the project Gota menu artwork. Project artwork and UI images are covered by LICENSE.",
+      "changes": "Registered the already committed artwork and its existing README without changing their bytes. The existing logo uses an aspect-preserved transparent 3:2 canvas. Existing button adaptations retain their silhouette and alpha, shift secondary colors toward amethyst and soften the primary gold.",
+      "notice": "LICENSE"
+    },
+    "gotaPotionColors": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Updated Gods of the Arena potion colors",
+      "origin": "Existing project potion artwork and descriptions updated in 93a704a7bdaaba04727ef1be0d06422c61952312 on 2026-10-29. These assets were already registered under the project CC0 dedication; the commit changed their PNGs and descriptions without updating the inventory.",
+      "changes": "Registered the already committed black-purple Poison Potion and green Vitality Elixir, with matching descriptions, without changing file bytes. The current Vitality Elixir PNG reuses the previously registered green Poison Potion artwork. Current PNG hashes and sizes match the committed Git LFS pointers.",
+      "notice": "LICENSE"
     }
   },
   "files": [
@@ -13920,16 +14040,16 @@
     {
       "path": "items/poison_potion.md",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "985efbc3e766bf0f3a434a7c740b2982aeed8abc7dd09a604cfdcee361051a4b",
-      "bytes": 237
+      "source": "gotaPotionColors",
+      "sha256": "eb55770ba1d69e49b83f39194a016149a97d7a71032f5746e6c747b07f82f0c1",
+      "bytes": 281
     },
     {
       "path": "items/poison_potion.png",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "e3a099181f71de25f406140f0967b842b6689bce861e595c491daac18a63f1ea",
-      "bytes": 20365
+      "source": "gotaPotionColors",
+      "sha256": "cc1bab0a2ddbd81d948abf59dd53934464654e2068af1d2236fb027f2ac087b3",
+      "bytes": 21316
     },
     {
       "path": "items/prism_carapace.md",
@@ -14396,16 +14516,16 @@
     {
       "path": "items/vitality_elixir.md",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "c1399fcb257c5029289eef3bd2a0558018a05a23933b46ca20aff8c291a473f2",
-      "bytes": 239
+      "source": "gotaPotionColors",
+      "sha256": "64865649dfdfc4d93f7d797cce79d035a06737184296cfa690e25ea16c52b598",
+      "bytes": 262
     },
     {
       "path": "items/vitality_elixir.png",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "8413c3ce9a8ca4bffef52fb84d77213bbbc3b1667992c0b63e56c80db4127f93",
-      "bytes": 24655
+      "source": "gotaPotionColors",
+      "sha256": "e3a099181f71de25f406140f0967b842b6689bce861e595c491daac18a63f1ea",
+      "bytes": 20365
     },
     {
       "path": "items/warding_chalk.md",
@@ -15724,6 +15844,636 @@
       "bytes": 14645
     },
     {
+      "path": "sounds/artisticdude-rpg/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/artisticdude-rpg/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/artisticdude-rpg/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "3b83dce89462cc4bf0a19af8b994bdb9b841a67cf089d503214a4bc90f82cbee",
+      "bytes": 6575
+    },
+    {
+      "path": "sounds/artisticdude-rpg/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "8059d1f8d3760cf72f700e4b11e48fe86ec81037a469a545dca5e7c8788dca1c",
+      "bytes": 651
+    },
+    {
+      "path": "sounds/artisticdude-rpg/swing.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "ddfa90b0b1f771423359f559358a99040fd66a1eaadc5df7ffbac9411e0725a9",
+      "bytes": 6054
+    },
+    {
+      "path": "sounds/artisticdude-rpg/swing2.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "6c31bf86363e66741024b78b5913c765917d3679212b171dd904a5d69af85f21",
+      "bytes": 5497
+    },
+    {
+      "path": "sounds/artisticdude-rpg/swing3.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "4618834eb2c18b94cba6d983b956f3704b46dfdd7ea30fd65f873a6308f094cd",
+      "bytes": 5646
+    },
+    {
+      "path": "sounds/artisticdude-rpg/wood-small.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-artisticdude-rpg",
+      "sha256": "87d8dac2a74b0cd7e44de76ac93879e7a74351e8717a54344f7d65db54484898",
+      "bytes": 7592
+    },
+    {
+      "path": "sounds/benjaminnelan-rooster/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-benjaminnelan-rooster",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/benjaminnelan-rooster/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-benjaminnelan-rooster",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/benjaminnelan-rooster/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-benjaminnelan-rooster",
+      "sha256": "e315290203cd13244359adc604adbe70ec4e9e352c772c1790636d2c69ab85c9",
+      "bytes": 2696
+    },
+    {
+      "path": "sounds/benjaminnelan-rooster/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-benjaminnelan-rooster",
+      "sha256": "903c2f6de4e68a9e394fe34ed5eb32f97eefd74a20c6c56b5a4af9d621523aea",
+      "bytes": 924
+    },
+    {
+      "path": "sounds/benjaminnelan-rooster/rooster-crow.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-benjaminnelan-rooster",
+      "sha256": "5f27b160ab44da1ee32c833d01fc7ef4d68b55e0625e373f107c78b3895d0792",
+      "bytes": 31760
+    },
+    {
+      "path": "sounds/gchoc-trumpet-fanfare/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-gchoc-trumpet-fanfare",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/gchoc-trumpet-fanfare/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-gchoc-trumpet-fanfare",
+      "sha256": "f63aa84bdfc3a22aebc6a81a35c41861c93e62a2af12f6aa98abf350d9f032cd",
+      "bytes": 519
+    },
+    {
+      "path": "sounds/gchoc-trumpet-fanfare/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-gchoc-trumpet-fanfare",
+      "sha256": "eb0e9cfd378a5777db90c615397bdebfeaf0dd92bd8bb4fca6fb7979f248003f",
+      "bytes": 3676
+    },
+    {
+      "path": "sounds/gchoc-trumpet-fanfare/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-gchoc-trumpet-fanfare",
+      "sha256": "b7e675b45f9752ebf47479a5a5412952007e516fdd867c80acb8eda972c13942",
+      "bytes": 585
+    },
+    {
+      "path": "sounds/gchoc-trumpet-fanfare/victory-fanfare.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-gchoc-trumpet-fanfare",
+      "sha256": "5151ed7aab97796a86757752a3a0e22a6cd9197301ca2ceb262090e585827a02",
+      "bytes": 25953
+    },
+    {
+      "path": "sounds/kenney-rpg/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/kenney-rpg/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "6f12f89bf8d1cc417b25afd1f8e6d9560b2b1d1ac2b175cf4ee9c377e180783d",
+      "bytes": 477
+    },
+    {
+      "path": "sounds/kenney-rpg/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "d9b3fc220a47a1128447c2733c5ac474baa651da8c4a9cae59ffedc15c3eeec6",
+      "bytes": 13119
+    },
+    {
+      "path": "sounds/kenney-rpg/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "be3feb75749ffbbb0ff566dd8e72fb1af8e052ded851840a5672302f7e08addf",
+      "bytes": 541
+    },
+    {
+      "path": "sounds/kenney-rpg/bookClose.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "b11387c96b1043ea1fcdfe596f96ec648cfc711a14923d5618541f5f800ab331",
+      "bytes": 7044
+    },
+    {
+      "path": "sounds/kenney-rpg/chop.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "69129a0b02f270a92bca844a7adb612e374a3bb660a1beb1b147a29f714f3409",
+      "bytes": 6740
+    },
+    {
+      "path": "sounds/kenney-rpg/cloth-hover.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "5e5b2055b43c2974375b42c985e91e949a2edae560842a6bb286f3fc9df527b0",
+      "bytes": 6631
+    },
+    {
+      "path": "sounds/kenney-rpg/handleSmallLeather.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "2fdb02581d9bcc84d96e008aea8aa6dc21a59cd3bd9047d4e9ee21e7a6aace51",
+      "bytes": 7017
+    },
+    {
+      "path": "sounds/kenney-rpg/handleSmallLeather2.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "42c701539c767a63f108612e691eabe66206089bd64f1c96f7ef349b1b4e55ec",
+      "bytes": 7386
+    },
+    {
+      "path": "sounds/kenney-rpg/knifeSlice.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "0402dd766132e80f24dce52f087af8bb093a7d820185e9658c56a0e3dfa47db3",
+      "bytes": 8898
+    },
+    {
+      "path": "sounds/kenney-rpg/knifeSlice2.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "c896e2bec71d3fcbd0418d1dd65b70ed460427d77dffd0730e20badb660b9590",
+      "bytes": 9902
+    },
+    {
+      "path": "sounds/kenney-rpg/metalLatch.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "eb264050a75942c2c2a8656051ee664a8022fb4d0b8fdf114d9316d184157c87",
+      "bytes": 6931
+    },
+    {
+      "path": "sounds/robinlamb-lose-game/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-robinlamb-lose-game",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/robinlamb-lose-game/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-robinlamb-lose-game",
+      "sha256": "916ae38009878511cd2ae6c3707ee254a428d9bff0faf3c1ad6f33b8e514b35b",
+      "bytes": 516
+    },
+    {
+      "path": "sounds/robinlamb-lose-game/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-robinlamb-lose-game",
+      "sha256": "a350894c846e34d08052e13760b44c646d03dda2a6ca3c8f386c60bc4014e213",
+      "bytes": 3690
+    },
+    {
+      "path": "sounds/robinlamb-lose-game/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-robinlamb-lose-game",
+      "sha256": "058a225ddc60d718670128811528195297735aa8228f786a1099cd1f80fc4c54",
+      "bytes": 582
+    },
+    {
+      "path": "sounds/robinlamb-lose-game/defeat-fanfare.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-robinlamb-lose-game",
+      "sha256": "9e45eb4318ff2e7d0b6961eec432fd79bec535d026c32e10ecb7f5e224c10a1f",
+      "bytes": 74024
+    },
+    {
+      "path": "sounds/rubberduck-creatures-2/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-creatures-2",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/rubberduck-creatures-2/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-creatures-2",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/rubberduck-creatures-2/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-creatures-2",
+      "sha256": "775b9ba16f7acdf361ccecb9ffb97664e6249300c4b70f61e7af4e4a0b03d99c",
+      "bytes": 5072
+    },
+    {
+      "path": "sounds/rubberduck-creatures-2/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-creatures-2",
+      "sha256": "5f283240c11f9328a575f33d25000be0cc5d91b9ee28b3e9d5ffb7657f1f28ce",
+      "bytes": 668
+    },
+    {
+      "path": "sounds/rubberduck-creatures-2/die_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-creatures-2",
+      "sha256": "33a54d0ebc4a8c43123c34834f11b50e95da07c0046309770b9c797dc5cbe839",
+      "bytes": 8305
+    },
+    {
+      "path": "sounds/rubberduck-creatures-2/die_03.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-creatures-2",
+      "sha256": "371b95cc7df99bb38a6424b516e6adae04c443ee4279d2ed486dfd85f8618b83",
+      "bytes": 9592
+    },
+    {
+      "path": "sounds/rubberduck-creatures-2/die_04.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-creatures-2",
+      "sha256": "95a04d47ee8f8bfbd59a9450c60f2c485cd18f30fbf06275c6362483cce4b175",
+      "bytes": 13309
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "7a715c8313fa3952efcfe7d9d89df1df5cab8a6d2a3d479050ffde92f27f6662",
+      "bytes": 15739
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "64623793f5013df12aa9f258957bfcfa95d1754499efb50232a58b41d76ea45a",
+      "bytes": 674
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/hammer_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "d9ade1b4103f4f0a4f1d09f90abb09c96309094c4146b9ec5f25a2459f585770",
+      "bytes": 6949
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/hammer_03.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "670bd69ae051346824c8b7e20a905d3af9a9b525dd762e41de928277f5ac0c67",
+      "bytes": 6364
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/wood-hammer-start.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "b312ce1495b1ce63c3499b14240e1c18ad95b580e00cf7e2729afbaf5bc16fe9",
+      "bytes": 9098
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/wood_breaking_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "fa84b103bc0f8a05cd8a698853e2f0f094fd2fde4f766b2d4713b8c03e8a3d60",
+      "bytes": 9256
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/wood_breaking_02.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "d3a37db20934783c6c2ea72c423a5e0003fb1fc0b3bc916b780351a25bd5e9e5",
+      "bytes": 9473
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/wood_falling_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "f12827565ac3a77140bcef7abefc32c71501d7bc502d38c7d2a1d22efd02bd41",
+      "bytes": 10561
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/wood_hit_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "c7b189d9e9e17718aa06e202b6abb271dca95fca7d5b89aa2a32cc36bb1f1064",
+      "bytes": 6505
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/wood_hit_02.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "5d91653abdb852f63b4fc1f14097720b8958a05f4eb640007528393be60dcec4",
+      "bytes": 7246
+    },
+    {
+      "path": "sounds/rubberduck-metal-wood/wood_hit_03.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-metal-wood",
+      "sha256": "3d602e30ba50d6468b9030ed696660e690051ea8696e51f2334dd95263ad78aa",
+      "bytes": 7087
+    },
+    {
+      "path": "sounds/rubberduck-rpg/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/rubberduck-rpg/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/rubberduck-rpg/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "9617b252d813337ae1b95d8619b3d045f6b0ea633313e84f675ceae76666dee8",
+      "bytes": 9414
+    },
+    {
+      "path": "sounds/rubberduck-rpg/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "3f744bfbc8c06a315ae9bbc285bfbb8ee792804cea760b68e37ceff4c388838d",
+      "bytes": 649
+    },
+    {
+      "path": "sounds/rubberduck-rpg/creature_die_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "92a16db817db51de343585c7dd417526b5b96716f1e73a028d5361f7edaad217",
+      "bytes": 9103
+    },
+    {
+      "path": "sounds/rubberduck-rpg/lock_02.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "38d8bc8836c32feb842dc03717fae3d2fba42b5f14a9961a573f6b234cb0d35d",
+      "bytes": 6447
+    },
+    {
+      "path": "sounds/rubberduck-rpg/spell_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "c06b15f2e07bf3692fe368f7457ea08a1167b426d40545af7a3dfa98b2d3e5e8",
+      "bytes": 10241
+    },
+    {
+      "path": "sounds/rubberduck-rpg/spell_02.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "9531185efe6bafc1f6dad9b9e5a6439179985487cac34211a5073c0766a51fdf",
+      "bytes": 9099
+    },
+    {
+      "path": "sounds/rubberduck-rpg/spell_fire_01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "d86bf066b2ce35e839a40548f0e077e103991e4dcb6dc3b747b313cc83c2a26f",
+      "bytes": 14499
+    },
+    {
+      "path": "sounds/rubberduck-rpg/spell_fire_02.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-rubberduck-rpg",
+      "sha256": "f2cf4afebcf66b00cf0f28521273282295f162444e8411045a71f8841e82acff",
+      "bytes": 12612
+    },
+    {
+      "path": "sounds/sachajulien-distant-wolves/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-sachajulien-distant-wolves",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/sachajulien-distant-wolves/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-sachajulien-distant-wolves",
+      "sha256": "8db1b37dcd48b7b1931cead1b7729cc2c805e1bf2120c5817f44a9bb4da35566",
+      "bytes": 628
+    },
+    {
+      "path": "sounds/sachajulien-distant-wolves/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-sachajulien-distant-wolves",
+      "sha256": "cb3ee17c5569cf8271d22de026e52bd068f3e94b590e037b05587cb71f04d3b2",
+      "bytes": 3584
+    },
+    {
+      "path": "sounds/sachajulien-distant-wolves/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-sachajulien-distant-wolves",
+      "sha256": "0005575d8a92aff8b085ee68c1ecf1231ddb10eef730905827c39ac77953081c",
+      "bytes": 532
+    },
+    {
+      "path": "sounds/sachajulien-distant-wolves/wolf-howl-short.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-sachajulien-distant-wolves",
+      "sha256": "0bd091f5cdaf37c8dd09d590222e54a885a897d12b9af3df6d590251f77d03d4",
+      "bytes": 35874
+    },
+    {
+      "path": "sounds/vehicle-accessories/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-accessories",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/vehicle-accessories/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-accessories",
+      "sha256": "affea851fb75db59b3dca83c997760bc080636b2eb35360ef8c791574176526b",
+      "bytes": 194
+    },
+    {
+      "path": "sounds/vehicle-accessories/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-accessories",
+      "sha256": "e7731f2859c73dcd4531880b140f7770a858c57d5cf37a8a539d4b8e92575c78",
+      "bytes": 3728
+    },
+    {
+      "path": "sounds/vehicle-accessories/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-accessories",
+      "sha256": "f2dc1f8d37079e26f2c33ee7b7b39a6eeb76ed0e483a0da0fc5e19259e55037e",
+      "bytes": 585
+    },
+    {
+      "path": "sounds/vehicle-accessories/coins-shake-01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-accessories",
+      "sha256": "b310734081ae37882e54bf577e593cc7ae1824a8018fc93951743e8ab2eee158",
+      "bytes": 20685
+    },
+    {
+      "path": "sounds/vehicle-accessories/wood-bowl-hit-wood-spoon-01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-accessories",
+      "sha256": "4c9a88f26076a7545f03b486b5e50fe9cb1f1fdbdee1da7fd751ea29fce69cca",
+      "bytes": 5925
+    },
+    {
+      "path": "sounds/vehicle-tinysized/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-tinysized",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/vehicle-tinysized/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-tinysized",
+      "sha256": "6d6712d2a41e54f5dad0e61255da0d9259a299a9b2953b23534eb853429c10cd",
+      "bytes": 194
+    },
+    {
+      "path": "sounds/vehicle-tinysized/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-tinysized",
+      "sha256": "9ae3f2d2ae853f34d1c63e82cac20ae8c601a3b19b67c3684ff421afa95a1f53",
+      "bytes": 2216
+    },
+    {
+      "path": "sounds/vehicle-tinysized/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-tinysized",
+      "sha256": "dbcacc667da2af7e8fb22461a7978d196b50c7dc525eaada56721f74a52ff920",
+      "bytes": 589
+    },
+    {
+      "path": "sounds/vehicle-tinysized/chimes-wood-rattle.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-tinysized",
+      "sha256": "9955d2e3f03f1b6030a156a9a9267c8bb7b689ee59fd573c0f368f4aaa613018",
+      "bytes": 33362
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/CC0-1.0.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/LICENSE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "168e1f6f25b7a9d7ce62f669b6eadee68c556a9b64ec9a2aba1db73031ea6c26",
+      "bytes": 204
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/PROVENANCE.json",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "bbcb85f2a69ada94cd825ded84e54e09434496322a2a11aff045d03ec2ad8994",
+      "bytes": 8143
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/SOURCE.txt",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "72ec1543b008ab4231eb1535e9ca6027b8732ae7f285a4bcfbd74bc973739c67",
+      "bytes": 605
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/knife-unsheathe-02.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "6fcb2d16cf742f45fd4a70daaff323a37f04620143628cce41be61356c85aad0",
+      "bytes": 11543
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/knife-unsheathe-03.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "9b843191771f2c3b63af44133e4ff093cce9309275b9233db25041590d51cf0c",
+      "bytes": 14999
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/sword-knife-clash-01.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "bf4dadfdb87bc83f1273eb0964f7ecdfe363e758b00a627d04905c7314c4cc99",
+      "bytes": 9312
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/sword-knife-clash-02.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "262d59920b781337321ace47e60b8c12be9df799c584fb02d0ee4ec5eb869031",
+      "bytes": 11063
+    },
+    {
+      "path": "sounds/vehicle-weapons-apparel/sword-knife-clash-03.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-vehicle-weapons-apparel",
+      "sha256": "bd094a0c13ea855dadfea080c991af858cb3ee629b142f1e485b4adaeca0190f",
+      "bytes": 9854
+    },
+    {
       "path": "terrain/blender_forts/fort_kit.blend",
       "license": "CC0-1.0",
       "source": "project",
@@ -16611,6 +17361,104 @@
       "source": "heartleafLayers",
       "sha256": "b767ac90696f8a156451af21ee1879f2688613edd3440a8c4b9202b90cd4f98d",
       "bytes": 10605060
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/01-grass-and-paths.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "0c32de4d8b0900fd205e28dc9372596d645ad4df1c8d10dcead25276add84484",
+      "bytes": 2552025
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/02-buildings.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "4dd037b2eda0798e47c02c6fe51f721d64ae91e033fde8a029627b0f04f3bfb3",
+      "bytes": 1597186
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/03-trees-and-vegetation.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "06fca1f00d4bcbce8c8fce94a6f6180fa8d58e5c9aa8bd83e17c43efdc27a802",
+      "bytes": 2183711
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/04-props.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "e1814ae2bf6c6cbf48c4ae74363e93f5a10e616779f50448b34b70780123fa5a",
+      "bytes": 1216895
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/layers.json",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "968dd5ff1b9069c915a9abbc60e54605df9fc5af569774b4f2536b4505f2fd45",
+      "bytes": 2658
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/license.md",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "01281cdffcf4cee623f9d6ff80cae1ae791d68907c45318230cc6a8a6bca7797",
+      "bytes": 1898
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/preview.html",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "9db839f740d73027720f0176167805c67b0254f626b28315eb15f98524c42beb",
+      "bytes": 3348
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/01-ground.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "6b4516c9dda00a2c5c0f033abd22f4209bbf19b3c8a625dab05bc2bff3dc46f7",
+      "bytes": 2010
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/02-buildings.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "f3f1bca127c6ee34e256a65ecaef58fc8503403b6cd231817de96fb35ac93eac",
+      "bytes": 2276
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/03-vegetation.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "a83e0b27720006e352f2630b47c7700a0bd3cb4f95ef3e45af91a13290bd920d",
+      "bytes": 2427
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/04-props-cleanup.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "ea1ca0022f70223fb9f4865d3f0f9675f578e0688fd3a188016ce9bc25777971",
+      "bytes": 1364
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/04-props.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "d75b8b002834ede39f3bece38382ccc9e47cbc20c33b2c6b3073cfbc25f1940b",
+      "bytes": 2600
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/registration.json",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "168402cffeb4cd4d403d0a9e94c440d1e35d9b2a49bb11633cd8a8a8aef55da7",
+      "bytes": 1481
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/stacked-preview.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "2e6ae51fec3f67543138f37ead427a46268e5075c7ac35dac23bba39667fa52d",
+      "bytes": 3088869
     },
     {
       "path": "terrain/heartleaf/layers/layers.json",
@@ -19035,6 +19883,90 @@
       "bytes": 2691
     },
     {
+      "path": "themes/gota/menu/background-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "5fef46c03a1e55e7d008376e67b79960f24ec7844fadd0af89e2dd85b1c52c3a",
+      "bytes": 1809
+    },
+    {
+      "path": "themes/gota/menu/background.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "6f3ceaab1ad4fc3a9c537c21804b181cb2c225822a3011c2536f08c2f8fa679c",
+      "bytes": 2642757
+    },
+    {
+      "path": "themes/gota/menu/button-exit-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "4bb801d4788778faca2c7e5910dca10d88b1f2eae374678352990bd226033e24",
+      "bytes": 1449
+    },
+    {
+      "path": "themes/gota/menu/button-exit.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "f32f058a168736524dfdb6b73556bcd645da55b027e1a520ffc283bec144e7f3",
+      "bytes": 948151
+    },
+    {
+      "path": "themes/gota/menu/button-multiplayer-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "c02962e39e5c9fb12489df089de6d6b6b5523ae4f8bb7cf7b2821667e449d4a7",
+      "bytes": 1504
+    },
+    {
+      "path": "themes/gota/menu/button-multiplayer.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "04c798b3aeaf0387ee2d9d50b4c929047d6dd6723c423c775d5c74af2b99e118",
+      "bytes": 866565
+    },
+    {
+      "path": "themes/gota/menu/button-settings-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "f7c140241a4622a6de165d98ce68b078e88c1c3ee8474dfe621d18a9d4104635",
+      "bytes": 1336
+    },
+    {
+      "path": "themes/gota/menu/button-settings.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "dae037964bc4b6ec60fe737efab5db2ea55498d5254fc2859c9523715094e288",
+      "bytes": 979949
+    },
+    {
+      "path": "themes/gota/menu/button-single-player-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "e33610a5c9cd9df256284824c7a103d670c12ddef5e1f2259d21360be2a28103",
+      "bytes": 1472
+    },
+    {
+      "path": "themes/gota/menu/button-single-player.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "ac5bfed671c740b3c06275850f1091def94a30003cb7ce8c3891ca5828979782",
+      "bytes": 891387
+    },
+    {
+      "path": "themes/gota/menu/logo-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "9c27a4e376e595771276a137a9f3bafb2a4ea3e94babcc51d15935382038da04",
+      "bytes": 1799
+    },
+    {
+      "path": "themes/gota/menu/logo.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "a973cf4d8002648885456e55d5389c57fc2f6362a645536a851d687ca975ab9e",
+      "bytes": 2210350
+    },
+    {
       "path": "themes/heartleaf/heartleaf_logo.png",
       "license": "CC0-1.0",
       "source": "heartleafLogo",
@@ -19061,6 +19993,55 @@
       "source": "project",
       "sha256": "0e1a0f31e960a467e71b76648c2fadaca30c04c2e194a1aa9a09300eec861a7d",
       "bytes": 665396
+    },
+    {
+      "path": "themes/lvd/menu/README.md",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "de9e0d9e45dc6f0babaaae1c7387c4326630b643e08a094e84e6278f31c84384",
+      "bytes": 747
+    },
+    {
+      "path": "themes/lvd/menu/background.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "ce2b23c432ffc1576a9f2a44025eae2c8c1b3cafbdd21538c67f1984007e2d23",
+      "bytes": 2541781
+    },
+    {
+      "path": "themes/lvd/menu/button-exit.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "bc9d0dd382441aab070661e578a6f74e04c1783a15d9c52500afa57509545c7b",
+      "bytes": 801727
+    },
+    {
+      "path": "themes/lvd/menu/button-multiplayer.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "7f651f643270ec660a1b815995ed88c6d8de7251502bd1805622e7caf8bbeb09",
+      "bytes": 665480
+    },
+    {
+      "path": "themes/lvd/menu/button-settings.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "4004ba27640ad2ee7c0d8e472b26da3dfb9231cd8310b092251478e41f43ae16",
+      "bytes": 835748
+    },
+    {
+      "path": "themes/lvd/menu/button-single-player.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "1316167e6a3b19fa68f83cd43bdfb1dc491f88bffc45faf29efe0889dd1bb2cc",
+      "bytes": 807194
+    },
+    {
+      "path": "themes/lvd/menu/logo.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "26af4430c0237ac3c3f959bc0a4abf742025c51a4d2167b87c23b2bf0377bb3b",
+      "bytes": 460924
     },
     {
       "path": "themes/lvd/unit-symbols-prompt.txt",
