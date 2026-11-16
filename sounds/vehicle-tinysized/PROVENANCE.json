@@ -1,0 +1,69 @@
+{
+  "source_url": "https://opengameart.org/content/fantasy-sound-effects-tinysized-sfx",
+  "download_url": "https://opengameart.org/sites/default/files/tinysized.zip",
+  "creator": "Vehicle / Jan Schupke",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "archive_sha256": "7f00e2b1dae15e68db0e1d6096767f03755e9e7c247128afc3e935e63774d7db",
+  "archive_bytes": 13235099,
+  "source_page_sha256": "8764d6a64a82aa39195d10b157f5693452c1007ce668ddbd1c7b91c499d9309d",
+  "source_license_statement": "CC0",
+  "original_notice_file": "readme.txt",
+  "source_evidence": "Full unmodified source-page.html and original.zip retained in local download library. The creator-submitted source page explicitly identifies this pack as CC0.",
+  "files": [
+    {
+      "file": "chimes-wood-rattle.ogg",
+      "cues": [
+        "HealSound"
+      ],
+      "original_file": "sfx-cc0/chimes-wood-rattle.wav",
+      "original_sha256": "4b62c715ef1767b6d180d81f9a65738f9777bb7f0f13a24eb31533954a9a3171",
+      "sha256": "9955d2e3f03f1b6030a156a9a9267c8bb7b689ee59fd573c0f368f4aaa613018",
+      "bytes": 33362,
+      "duration_seconds": 2.2,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          5316,
+          102336
+        ],
+        "gain_linear": 4.0,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    }
+  ]
+}

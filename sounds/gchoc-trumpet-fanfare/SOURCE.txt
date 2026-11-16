@@ -1,0 +1,11 @@
+Creator: Graciano Choc / gchoc / Bz.gamedev
+Source: https://opengameart.org/node/161646
+License: CC0 1.0 Universal
+Retrieved: 2026-11-14
+Original audio, source-page.html, and source.json are retained in the local
+download archive ~/Downloads/polyworld-cc0-audio/gchoc-trumpet-fanfare/.
+
+This imported folder includes only the used OGG cue, the complete CC0 legal
+text, the creator-page license declaration record, and PROVENANCE.json.
+PROVENANCE.json records source/download URLs, original/output hashes, and
+exact processing commands. No separate license notice came with the source.

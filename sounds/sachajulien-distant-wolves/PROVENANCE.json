@@ -1,0 +1,96 @@
+{
+  "pack": "sachajulien-distant-wolves",
+  "creator": "Sacha.Julien",
+  "title": "Adult and young wolves howling far away",
+  "source_url": "https://freesound.org/people/Sacha.Julien/sounds/753896/",
+  "download_url": "https://cdn.freesound.org/previews/753/753896_14889307-hq.mp3",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "download_kind": "public-hq-preview",
+  "download_file": "source-hq-preview.mp3",
+  "download_sha256": "94faa0696728b4f511cf5d38c0ef1216b8200ff14b0c04a4c4910d2799a045e3",
+  "download_bytes": 68736,
+  "source_page_sha256": "50e163cdea74b4fc6a5bc6b5a0d6042497b86a64c5873513ddeea6d0d46d0c88",
+  "source_duration_seconds": 4.26117,
+  "note": "Public MP3 HQ preview explicitly linked on source page. Original 96000 Hz WAV requires login and was not downloaded. Creator records actual distant adult and young wolves during an induced-howling protocol.",
+  "source_license_statement": "CC0",
+  "original_notice_file": null,
+  "source_evidence": "Unmodified creator page and public HQ MP3 preview retained in the download archive. No separate notice supplied; LICENSE.txt records the creator-page CC0 declaration.",
+  "files": [
+    {
+      "file": "wolf-howl-short.ogg",
+      "cues": [
+        "NightfallSound"
+      ],
+      "original_file": "source-hq-preview.mp3",
+      "original_file_kind": "Freesound public HQ MP3 preview, not the uploaded original WAV",
+      "original_sha256": "94faa0696728b4f511cf5d38c0ef1216b8200ff14b0c04a4c4910d2799a045e3",
+      "sha256": "0bd091f5cdaf37c8dd09d590222e54a885a897d12b9af3df6d590251f77d03d4",
+      "bytes": 35874,
+      "duration_seconds": 2.8,
+      "transformations": {
+        "decoded": "mono float32 PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "source_crop_seconds": [
+          0.4,
+          3.2
+        ],
+        "source_crop_samples_44100": [
+          17640,
+          141120
+        ],
+        "fade_in_samples": 4410,
+        "fade_out_samples": 11025,
+        "gain_linear": 0.7697362194266307,
+        "target_peak_dbfs": -14,
+        "measured_output_peak_dbfs": -14.04238050280818,
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "decoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-i",
+          "/Users/me/Downloads/polyworld-cc0-audio/sachajulien-distant-wolves/source-hq-preview.mp3",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-f",
+          "f32le",
+          "-"
+        ],
+        "encoding_command": [
+          "ffmpeg",
+          "-y",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "/Users/me/p/polyworld_art/sounds/sachajulien-distant-wolves/wolf-howl-short.ogg"
+        ],
+        "processing_order": "Decode to float32 mono, crop, apply linear edge fades, attenuate to -14 dBFS peak without amplification, round to signed 16-bit PCM, encode.",
+        "note": "Short distant adult/young wolf call with a gentle onset and tail. No pitch or speed changes. Replaces the loud 10.2-second solitary howl.",
+        "encoder": "libvorbis",
+        "vorbis_quality": 6
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+CC0 1.0 Universal
+
+Creator: Sacha.Julien
+Source: https://freesound.org/people/Sacha.Julien/sounds/753896/
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+The creator's Freesound submission declares Creative Commons 0.
+This file records that creator-page declaration, not a separate license grant.
+The unmodified source-page.html and original public HQ MP3 preview are preserved
+in ~/Downloads/polyworld-cc0-audio/sachajulien-distant-wolves/.
+The full CC0 legal text is preserved in CC0-1.0.txt.
+
+Source evidence is retained in the local download archive
+~/Downloads/polyworld-cc0-audio/sachajulien-distant-wolves/.

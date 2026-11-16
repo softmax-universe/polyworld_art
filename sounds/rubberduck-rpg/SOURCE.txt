@@ -1,0 +1,13 @@
+Pack: rubberduck-rpg
+Creator: rubberduck
+Source: https://opengameart.org/content/80-cc0-rpg-sfx
+Original archive: https://opengameart.org/sites/default/files/80-CC0-RPG-SFX_0.zip
+License shown by creator: CC0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Retrieved: 2026-11-14
+
+The archive contains no standalone license notice. The creator-submitted
+source page states CC0; LICENSE.txt preserves the official CC0 legal code.
+CC0-1.0.txt contains the complete official CC0 legal code.
+PROVENANCE.json records source and output hashes, original filenames,
+cue assignments, and exact audio transformations. Only used clips imported.

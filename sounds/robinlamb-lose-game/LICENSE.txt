@@ -1,0 +1,11 @@
+CC0 1.0 Universal
+
+Creator: Robin Lamb
+Source: https://opengameart.org/content/lose-game-short-music-clip
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+The creator's OpenGameArt submission identifies this recording as CC0.
+The original license declaration is preserved in source-page.html in the
+local download archive ~/Downloads/polyworld-cc0-audio/robinlamb-lose-game/.
+The complete CC0 legal text is preserved in CC0-1.0.txt.
+This file records source metadata; it is not a separate license grant.

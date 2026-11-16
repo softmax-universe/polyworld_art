@@ -1,0 +1,177 @@
+{
+  "source_url": "https://opengameart.org/content/80-cc0-creture-sfx-2",
+  "download_url": "https://opengameart.org/sites/default/files/80-CC0-creature-sfx-2.zip",
+  "creator": "rubberduck",
+  "license": "CC0-1.0",
+  "download_date": "2026-11-14",
+  "archive_sha256": "6d251aeaaaa9c2fffed8fc2f64bab3104725ceabf9259a8441994e7a20cfe22f",
+  "archive_bytes": 1890174,
+  "source_page_sha256": "16c8dcdd24377c790c02b3438a6370475da7763b30cb3da3b27245b104cb9e43",
+  "source_license_statement": "CC0",
+  "original_notice_file": null,
+  "source_evidence": "Full unmodified source-page.html and original.zip retained in local download library. The creator-submitted source page explicitly identifies this pack as CC0.",
+  "files": [
+    {
+      "file": "die_03.ogg",
+      "cues": [
+        "HumanDeathSound"
+      ],
+      "original_file": "die_03.ogg",
+      "original_sha256": "59f9188919b50d40da3c9dd94e00c2d1c0db915ecc5b2eddfbf574743651c836",
+      "sha256": "371b95cc7df99bb38a6424b516e6adae04c443ee4279d2ed486dfd85f8618b83",
+      "bytes": 9592,
+      "duration_seconds": 0.58002,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          187,
+          25766
+        ],
+        "gain_linear": 0.67707808,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "die_04.ogg",
+      "cues": [
+        "HumanDeathSound"
+      ],
+      "original_file": "die_04.ogg",
+      "original_sha256": "aad7ac7b49b3dc2c4d929ddc6a5c184c7c188d1a5224b4d88e4f7371c9075f79",
+      "sha256": "95a04d47ee8f8bfbd59a9450c60f2c485cd18f30fbf06275c6362483cce4b175",
+      "bytes": 13309,
+      "duration_seconds": 0.71744,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          249,
+          31888
+        ],
+        "gain_linear": 0.70808204,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    },
+    {
+      "file": "die_01.ogg",
+      "cues": [
+        "CreatureDeathSound"
+      ],
+      "original_file": "die_01.ogg",
+      "original_sha256": "d592dfbbe36a5e3e4b7dcaaa13498e50c59319d6df443c309858affb69336523",
+      "sha256": "33a54d0ebc4a8c43123c34834f11b50e95da07c0046309770b9c797dc5cbe839",
+      "bytes": 8305,
+      "duration_seconds": 0.39234,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          13,
+          17315
+        ],
+        "gain_linear": 0.66167123,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441
+      }
+    }
+  ]
+}

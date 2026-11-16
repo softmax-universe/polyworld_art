@@ -1,0 +1,19 @@
+Title: Rooster Crow 1
+Creator: BenjaminNelan
+Source: https://freesound.org/people/BenjaminNelan/sounds/435508/
+Download: https://cdn.freesound.org/previews/435/435508_1196020-hq.mp3
+License declared by creator: CC0
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Retrieved: 2026-11-14
+
+The imported source is the openly linked HQ MP3 preview. It is not the
+original uploaded WAV, which requires a Freesound login.
+The complete rooster crow is retained.
+The selection was mixed to mono, level adjusted,
+given short edge fades, and encoded as 44.1 kHz Vorbis quality 6.
+
+The single-file download has no bundled license notice. Its original
+creator-submitted page explicitly declares Creative Commons 0.
+LICENSE.txt and CC0-1.0.txt preserve the complete CC0 legal code.
+The unmodified source HTML and downloaded preview remain in the local
+download library. PROVENANCE.json records their hashes and processing.

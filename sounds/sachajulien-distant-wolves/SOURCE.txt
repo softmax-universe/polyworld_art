@@ -1,0 +1,11 @@
+Creator: Sacha.Julien
+Title: Adult and young wolves howling far away
+Source: https://freesound.org/people/Sacha.Julien/sounds/753896/
+License: CC0-1.0
+Retrieved: 2026-11-14
+
+The untouched public HQ MP3 preview, source-page.html and source.json
+remain in ~/Downloads/polyworld-cc0-audio/sachajulien-distant-wolves/.
+The original uploaded WAV requires login and was not downloaded.
+This folder contains only the used OGG excerpt and its license/provenance.
+PROVENANCE.json records exact crop, fades, gain, and original/output hashes.
