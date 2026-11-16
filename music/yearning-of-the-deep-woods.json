@@ -1,0 +1,23 @@
+{
+  "title": "Yearning of the Deep Woods",
+  "source_file": "Yearning of the Deep Woods.wav",
+  "source_sha256": "fffd7377ae2c8e62196ff3b42c50fd8ea18b5b07e6b5f53b4c6ea462d7153f4f",
+  "source_bytes": 39097348,
+  "source_metadata": {
+    "comment": "made with suno; created=2026-11-16T17:35:39Z; id=20e47c7c-4e49-45d4-b89c-5efc9fb889ca"
+  },
+  "imported": "2026-11-16",
+  "provenance": "User-supplied soundtrack imported from Downloads at the project owner's request. The embedded source metadata identifies Suno.",
+  "license": "No separate license was supplied with this recording. Its provenance is unresolved for the repository-wide CC0 dedication; this import does not assert a CC0 license.",
+  "output_file": "yearning-of-the-deep-woods.ogg",
+  "output_sha256": "ed8666d7c1603c236eecc838ae169877081675c728793790a4520b65a745e593",
+  "output_bytes": 2786804,
+  "encoding": {
+    "codec": "Ogg Vorbis",
+    "encoder": "FFmpeg 9.0 libvorbis",
+    "quality": 4,
+    "sample_rate": 48000,
+    "channels": 2,
+    "processing": "Full-length stereo conversion, without trimming, normalization or fades. Original source metadata retained; title tag added."
+  }
+}
