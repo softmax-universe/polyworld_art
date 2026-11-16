@@ -288,6 +288,14 @@
       "changes": "Removed the previews/ component entry, since generated previews are not kept in this repository, and documented that tools/render_cards.nim writes them to the game project's ignored build/card-previews/. Dropped the fixed row count from the contact sheet description. Card catalog unchanged.",
       "notice": "licenses/awm.md"
     },
+    "chargenResourcePacks": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors, authored with OpenAI Codex",
+      "title": "Chargen wood stack and gold sack backpacks",
+      "origin": "Original procedural Blender geometry fitted to the existing Chargen rig. OpenAI image_gen references, exact prompts and authoring provenance are retained in characters/chargen/source/resource_packs/source.json.",
+      "changes": "Created two modular Back items with shared-rig skinning and vertex colors. Enlarged the gold sack, reduced polygon counts, and removed geometric tree rings following user review. Retained the isolated Blender source, generation and validation scripts, and actual game-renderer previews.",
+      "notice": "LICENSE"
+    },
     "sound-artisticdude-rpg": {
       "license": "CC0-1.0",
       "creator": "artisticdude",
@@ -383,6 +391,46 @@
       "origin": "https://freesound.org/people/Sacha.Julien/sounds/753896/",
       "notice": "sounds/sachajulien-distant-wolves/LICENSE.txt",
       "changes": "Public HQ MP3 preview cropped from 0.4 to 3.2 seconds, downmixed to mono 44.1 kHz, given 100 ms onset / 250 ms ending fades, attenuated to -14 dBFS peak, and encoded as Ogg Vorbis quality 6. Original WAV was not downloaded. Exact processing and hashes in PROVENANCE.json."
+    },
+    "chargenKnightColors": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Vanguard knight team color masks",
+      "origin": "Existing original project Vanguard knight and shield. Details in characters/chargen/source/gota/vanguard_knight/team_colors.json.",
+      "changes": "Recovered material selectors for the cape, helmet plume, and shield face. Ivory armor, gold trim and other authored materials remain unchanged. Runtime part IDs and geometry are unchanged. Source and skill recipes retain the selectors on rebuild.",
+      "notice": "LICENSE"
+    },
+    "chargenElemental": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "LvD Elemental grand laurel crown",
+      "origin": "Original Polyworld Zeus crown and canonical Chargen rig; local worktree variant preserved before merging the reviewed upstream cleanup.",
+      "changes": "Preserved the local Elemental laurel and roster selection. This snapshot retains dormant tiara meshes and collapsed leaf-tip triangles; the repaired variant is already available in upstream commit e5d7e90.",
+      "notice": "LICENSE"
+    },
+    "gotaPotionColors": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Updated Gods of the Arena potion colors",
+      "origin": "Existing project potion artwork and descriptions updated in 93a704a7bdaaba04727ef1be0d06422c61952312 on 2026-10-29. These assets were already registered under the project CC0 dedication; the commit changed their PNGs and descriptions without updating the inventory.",
+      "changes": "Registered the already committed black-purple Poison Potion and green Vitality Elixir, with matching descriptions, without changing file bytes. The current Vitality Elixir PNG reuses the previously registered green Poison Potion artwork. Current PNG hashes and sizes match the committed Git LFS pointers.",
+      "notice": "LICENSE"
+    },
+    "gotaMenu": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Gods of the Arena main menu artwork and prompts",
+      "origin": "Existing project menu artwork and six generation prompts committed in 7049a83d3ca6958c3a0c203fc318f008c64e225a on 2026-10-27. The prompts in themes/gota/menu/ describe extraction of the background, logo and buttons from a supplied project menu image. That supplied reference bitmap is not retained. Project artwork, UI images and logos are covered by the repository dedication in LICENSE.",
+      "changes": "Registered the already committed PNGs and retained prompts without changing their bytes. The prompts document removal of menu overlays from the background and lettering from buttons, preservation of project character designs, and transparent output for the logo and button artwork.",
+      "notice": "LICENSE"
+    },
+    "lvdMenu": {
+      "license": "CC0-1.0",
+      "creator": "Softmax / Polyworld contributors",
+      "title": "Light vs Dark main menu artwork",
+      "origin": "Existing project menu artwork committed in 1930a50fb08b443b3c942e1b2a2486bffbec134e on 2026-11-05. themes/lvd/menu/README.md records the background as an actual Light vs Dark game render with seed 2026, four bundled base bots, 90 simulated seconds, spectator visibility, camera distance 90 and 1672x941 resolution, captured before HUD rendering with floating bars disabled. The logo derives from the registered CC0 themes/lvd/lvd_logo.png and the buttons from the project Gota menu artwork. Project artwork and UI images are covered by LICENSE.",
+      "changes": "Registered the already committed artwork and its existing README without changing their bytes. The existing logo uses an aspect-preserved transparent 3:2 canvas. Existing button adaptations retain their silhouette and alpha, shift secondary colors toward amethyst and soften the primary gold.",
+      "notice": "LICENSE"
     }
   },
   "files": [
@@ -3348,6 +3396,34 @@
       "bytes": 303
     },
     {
+      "path": "characters/chargen/clothing/backs/resource_gold.glb",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 68912,
+      "sha256": "18da041d8cee925ebd7b52005ab6c33ce886f91334a8952d16dbfb1909f0a652"
+    },
+    {
+      "path": "characters/chargen/clothing/backs/resource_gold.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 366,
+      "sha256": "baa1a990610503f57e66dcbd3aecc8ed6b283e71bfef421c58e14d005d83430e"
+    },
+    {
+      "path": "characters/chargen/clothing/backs/resource_wood.glb",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 62624,
+      "sha256": "c5883b83a1e8fdb64ac7c31f3e8f779df6915d97a1c3941f2b8ec45289139add"
+    },
+    {
+      "path": "characters/chargen/clothing/backs/resource_wood.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 367,
+      "sha256": "966c5aa0a5af917bc1d77cd4eccbc7ca9c2f5a23ce60c617d26d8f6243a33d20"
+    },
+    {
       "path": "characters/chargen/clothing/belts/astronaut_belt.glb",
       "source": "astronaut",
       "license": "CC0-1.0",
@@ -4449,9 +4525,9 @@
     {
       "path": "characters/chargen/clothing/torsos/gota_vanguard_knight_chest.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "448889d43bc2c0f9da00c8a2f7bc0966da219dad6d470fd5542c45f3fc6541bd",
-      "bytes": 1251
+      "source": "chargenKnightColors",
+      "bytes": 1403,
+      "sha256": "dc03177d782b54c5cad302677e2732a4c60de6b6592f6f0449fabf66a52c9aef"
     },
     {
       "path": "characters/chargen/clothing/torsos/gota_warlock_chest.glb",
@@ -6402,9 +6478,9 @@
     {
       "path": "characters/chargen/hats/gota_vanguard_knight_headgear.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "817a6e310e2b540a6d58f481b35358daebc324a5b8d1fc80ed74a102bd931a2d",
-      "bytes": 598
+      "source": "chargenKnightColors",
+      "bytes": 680,
+      "sha256": "65287f0f1eb9166a7937bbf3497f3f83fcd2b4fffc49f6fc9b14bd8da584851b"
     },
     {
       "path": "characters/chargen/hats/gota_warlock_headgear.glb",
@@ -6435,6 +6511,20 @@
       "bytes": 650
     },
     {
+      "path": "characters/chargen/hats/lvd_elemental_laurel.glb",
+      "license": "CC0-1.0",
+      "source": "chargenElemental",
+      "bytes": 118532,
+      "sha256": "a46d9554e95beda1e715e11ccd3dc729b5bc85ba86057910341b96bd99702964"
+    },
+    {
+      "path": "characters/chargen/hats/lvd_elemental_laurel.json",
+      "license": "CC0-1.0",
+      "source": "chargenElemental",
+      "bytes": 623,
+      "sha256": "3b7f0926484d95c14171fc9595cf8db87d110e80874f14c0e3c2715087c3b85d"
+    },
+    {
       "path": "characters/chargen/heads/base.glb",
       "license": "CC0-1.0",
       "source": "project",
@@ -6458,9 +6548,9 @@
     {
       "path": "characters/chargen/lvd.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "e82f074c5f0eb5eecbc00ca30d0910103411bac6555dd644c95b0d31662e8bdf",
-      "bytes": 49435
+      "source": "chargenElemental",
+      "bytes": 49510,
+      "sha256": "f37d01c5906919ef219644e0d709b1aa7b7c8a9e9e9a39b0f6aed3f9c118ab9d"
     },
     {
       "path": "characters/chargen/manifest.json",
@@ -7522,9 +7612,9 @@
     {
       "path": "characters/chargen/props/left/gota_vanguard_knight_left_hand.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "597ed62fad2dfc5cd1ffafb0144cee5042531ae335418173ea71060bf2c35fa4",
-      "bytes": 445
+      "source": "chargenKnightColors",
+      "bytes": 531,
+      "sha256": "2e50a3aec2f8d8a3d2c09a7a5dcd975cf6f401c6235f31a57ebe2e85f01a43b1"
     },
     {
       "path": "characters/chargen/props/left/gota_warlock_left_hand.glb",
@@ -8894,9 +8984,9 @@
     {
       "path": "characters/chargen/source/gota/vanguard_knight/parts.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "726f516d51464fa3aa75e49dc8492d02e005d1a74868b97649b61ab472ed28f9",
-      "bytes": 4036
+      "source": "chargenKnightColors",
+      "bytes": 4280,
+      "sha256": "c92f8114a5b9b2aa3b2c8e0a629e77def0e8ff35234862d7d749638dd97b3cb2"
     },
     {
       "path": "characters/chargen/source/gota/vanguard_knight/preset.json",
@@ -9041,9 +9131,9 @@
     {
       "path": "characters/chargen/source/gota/weapons/parts.json",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "09b89d1374d91b1e9d19d54c49f721d772d3373ef135bac72d4a37fac5ae65c3",
-      "bytes": 11233
+      "source": "chargenKnightColors",
+      "bytes": 11323,
+      "sha256": "806d51549d290b3b2a68bd13b2725578437261e8b43b67c9fb5caf2a3f19381c"
     },
     {
       "path": "characters/chargen/source/gota/weapons_v1/prompts.json",
@@ -9235,6 +9325,69 @@
       "bytes": 4328
     },
     {
+      "path": "characters/chargen/source/resource_packs/fit_review.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 60854,
+      "sha256": "6eb3bc22e4d071a43c479d18022670021832a958a2065311f627d195126a4997"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/parts.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 862,
+      "sha256": "b3d148e63bb3ece8c2faf980f0d62d3f9e37d7c1e16fe9f41e6bcf2857d2e2be"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/peon-carrying-gold.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 1536333,
+      "sha256": "596bea79288a41d62638287282404e3a58304060d9562519ff678bc73fd157f9"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/peon-carrying-wood.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 1562434,
+      "sha256": "02165c5e191976b63b9b13f20c1f3f18591c695b4782aa9e387c9ef4ff500d79"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/preview.png",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 76395,
+      "sha256": "44377505ba5bfb1d6134fedaf69966fb6f18c4c0796d6c8059f23a7a90e4ff5f"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/prompts.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 5109,
+      "sha256": "03b0c95af1ae1d418d0ce8d436a8c84989c9eb0aef45dac7536035c5f56a68dc"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/resource_packs.blend",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 246147,
+      "sha256": "e190b73cd590fb3922c1d6669db96e6e4c6756b8d53fbc5c487fe8f446cf9eb2"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/source.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 2196,
+      "sha256": "dc7a43be9a3700c60812e4b86f2521cca1f92467cd1d0f000ddbbda5ed7c323e"
+    },
+    {
+      "path": "characters/chargen/source/resource_packs/verification.json",
+      "license": "CC0-1.0",
+      "source": "chargenResourcePacks",
+      "bytes": 992,
+      "sha256": "0034dd5af844cdbc4dc52dff20c97101bcb365c3492f122763344405c1cc2bf2"
+    },
+    {
       "path": "characters/chargen/source/scripts/beard_sheets.py",
       "license": "MIT",
       "source": "code",
@@ -9336,8 +9489,8 @@
       "path": "characters/chargen/source/scripts/build_gota_weapons.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "2a5f981719cec3971779ab9bd875067e7d23bf2ba9d003c9d63a70d2e6c93aa7",
-      "bytes": 32392
+      "bytes": 32878,
+      "sha256": "3f1fdad1102af1881bc3b49d43003a5022ceec257c7a7eb5b5a50dc8b5497f6f"
     },
     {
       "path": "characters/chargen/source/scripts/build_hats.py",
@@ -9352,6 +9505,13 @@
       "source": "code",
       "sha256": "f39ed39f9b19ae338ba6f1f078949f1160d6b72b30ff69926ab7ebcfa8378364",
       "bytes": 39989
+    },
+    {
+      "path": "characters/chargen/source/scripts/build_resource_packs.py",
+      "license": "MIT",
+      "source": "code",
+      "bytes": 10396,
+      "sha256": "54b961d2b85c8d3a849a4124aad510e918a4c94af181c1b589e700d7b59ed13d"
     },
     {
       "path": "characters/chargen/source/scripts/clean_sources.py",
@@ -9462,8 +9622,8 @@
       "path": "characters/chargen/source/scripts/gota_common.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "689881cf6dd9a725aae254d98690431e005111ffa21c19c7e71ded19beb317ca",
-      "bytes": 19814
+      "bytes": 20519,
+      "sha256": "85444b8e7e2fdaf05594076045e9ab45b54b711f3878a414d21fa09ea2fce445"
     },
     {
       "path": "characters/chargen/source/scripts/gota_crossbowman.py",
@@ -9821,6 +9981,13 @@
       "source": "code",
       "sha256": "518f2a4eb12fd58c01676c7d1efd69a5edb3fc99331773d1fdba6e30acc2b859",
       "bytes": 10954
+    },
+    {
+      "path": "characters/chargen/source/scripts/verify_resource_packs.py",
+      "license": "MIT",
+      "source": "code",
+      "bytes": 2750,
+      "sha256": "c1766d0cfd5f008fa6c4ed861883751f44e5c8437c99dc860c7b23a0efae70b7"
     },
     {
       "path": "characters/chargen/source/scripts/verify_universal.py",
@@ -13787,16 +13954,16 @@
     {
       "path": "items/poison_potion.md",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "985efbc3e766bf0f3a434a7c740b2982aeed8abc7dd09a604cfdcee361051a4b",
-      "bytes": 237
+      "source": "gotaPotionColors",
+      "sha256": "eb55770ba1d69e49b83f39194a016149a97d7a71032f5746e6c747b07f82f0c1",
+      "bytes": 281
     },
     {
       "path": "items/poison_potion.png",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "e3a099181f71de25f406140f0967b842b6689bce861e595c491daac18a63f1ea",
-      "bytes": 20365
+      "source": "gotaPotionColors",
+      "sha256": "cc1bab0a2ddbd81d948abf59dd53934464654e2068af1d2236fb027f2ac087b3",
+      "bytes": 21316
     },
     {
       "path": "items/prism_carapace.md",
@@ -14263,16 +14430,16 @@
     {
       "path": "items/vitality_elixir.md",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "c1399fcb257c5029289eef3bd2a0558018a05a23933b46ca20aff8c291a473f2",
-      "bytes": 239
+      "source": "gotaPotionColors",
+      "sha256": "64865649dfdfc4d93f7d797cce79d035a06737184296cfa690e25ea16c52b598",
+      "bytes": 262
     },
     {
       "path": "items/vitality_elixir.png",
       "license": "CC0-1.0",
-      "source": "project",
-      "sha256": "8413c3ce9a8ca4bffef52fb84d77213bbbc3b1667992c0b63e56c80db4127f93",
-      "bytes": 24655
+      "source": "gotaPotionColors",
+      "sha256": "e3a099181f71de25f406140f0967b842b6689bce861e595c491daac18a63f1ea",
+      "bytes": 20365
     },
     {
       "path": "items/warding_chalk.md",
@@ -14600,8 +14767,8 @@
       "path": "skills/scripts/chargen/build_gota_weapons.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "2a5f981719cec3971779ab9bd875067e7d23bf2ba9d003c9d63a70d2e6c93aa7",
-      "bytes": 32392
+      "bytes": 32878,
+      "sha256": "3f1fdad1102af1881bc3b49d43003a5022ceec257c7a7eb5b5a50dc8b5497f6f"
     },
     {
       "path": "skills/scripts/chargen/build_hats.py",
@@ -14726,8 +14893,8 @@
       "path": "skills/scripts/chargen/gota_common.py",
       "license": "MIT",
       "source": "code",
-      "sha256": "689881cf6dd9a725aae254d98690431e005111ffa21c19c7e71ded19beb317ca",
-      "bytes": 19814
+      "bytes": 20519,
+      "sha256": "85444b8e7e2fdaf05594076045e9ab45b54b711f3878a414d21fa09ea2fce445"
     },
     {
       "path": "skills/scripts/chargen/gota_crossbowman.py",
@@ -17108,6 +17275,104 @@
       "source": "heartleafLayers",
       "sha256": "b767ac90696f8a156451af21ee1879f2688613edd3440a8c4b9202b90cd4f98d",
       "bytes": 10605060
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/01-grass-and-paths.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "0c32de4d8b0900fd205e28dc9372596d645ad4df1c8d10dcead25276add84484",
+      "bytes": 2552025
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/02-buildings.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "4dd037b2eda0798e47c02c6fe51f721d64ae91e033fde8a029627b0f04f3bfb3",
+      "bytes": 1597186
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/03-trees-and-vegetation.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "06fca1f00d4bcbce8c8fce94a6f6180fa8d58e5c9aa8bd83e17c43efdc27a802",
+      "bytes": 2183711
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/04-props.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "e1814ae2bf6c6cbf48c4ae74363e93f5a10e616779f50448b34b70780123fa5a",
+      "bytes": 1216895
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/layers.json",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "968dd5ff1b9069c915a9abbc60e54605df9fc5af569774b4f2536b4505f2fd45",
+      "bytes": 2658
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/license.md",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "01281cdffcf4cee623f9d6ff80cae1ae791d68907c45318230cc6a8a6bca7797",
+      "bytes": 1898
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/preview.html",
+      "license": "MIT",
+      "source": "code",
+      "sha256": "9db839f740d73027720f0176167805c67b0254f626b28315eb15f98524c42beb",
+      "bytes": 3348
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/01-ground.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "6b4516c9dda00a2c5c0f033abd22f4209bbf19b3c8a625dab05bc2bff3dc46f7",
+      "bytes": 2010
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/02-buildings.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "f3f1bca127c6ee34e256a65ecaef58fc8503403b6cd231817de96fb35ac93eac",
+      "bytes": 2276
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/03-vegetation.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "a83e0b27720006e352f2630b47c7700a0bd3cb4f95ef3e45af91a13290bd920d",
+      "bytes": 2427
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/04-props-cleanup.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "ea1ca0022f70223fb9f4865d3f0f9675f578e0688fd3a188016ce9bc25777971",
+      "bytes": 1364
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/prompts/04-props.txt",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "d75b8b002834ede39f3bece38382ccc9e47cbc20c33b2c6b3073cfbc25f1940b",
+      "bytes": 2600
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/registration.json",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "168402cffeb4cd4d403d0a9e94c440d1e35d9b2a49bb11633cd8a8a8aef55da7",
+      "bytes": 1481
+    },
+    {
+      "path": "terrain/heartleaf/layers/heartleaf-layers/stacked-preview.png",
+      "license": "CC0-1.0",
+      "source": "heartleafLayers",
+      "sha256": "2e6ae51fec3f67543138f37ead427a46268e5075c7ac35dac23bba39667fa52d",
+      "bytes": 3088869
     },
     {
       "path": "terrain/heartleaf/layers/layers.json",
@@ -19532,6 +19797,90 @@
       "bytes": 2691
     },
     {
+      "path": "themes/gota/menu/background-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "5fef46c03a1e55e7d008376e67b79960f24ec7844fadd0af89e2dd85b1c52c3a",
+      "bytes": 1809
+    },
+    {
+      "path": "themes/gota/menu/background.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "6f3ceaab1ad4fc3a9c537c21804b181cb2c225822a3011c2536f08c2f8fa679c",
+      "bytes": 2642757
+    },
+    {
+      "path": "themes/gota/menu/button-exit-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "4bb801d4788778faca2c7e5910dca10d88b1f2eae374678352990bd226033e24",
+      "bytes": 1449
+    },
+    {
+      "path": "themes/gota/menu/button-exit.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "f32f058a168736524dfdb6b73556bcd645da55b027e1a520ffc283bec144e7f3",
+      "bytes": 948151
+    },
+    {
+      "path": "themes/gota/menu/button-multiplayer-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "c02962e39e5c9fb12489df089de6d6b6b5523ae4f8bb7cf7b2821667e449d4a7",
+      "bytes": 1504
+    },
+    {
+      "path": "themes/gota/menu/button-multiplayer.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "04c798b3aeaf0387ee2d9d50b4c929047d6dd6723c423c775d5c74af2b99e118",
+      "bytes": 866565
+    },
+    {
+      "path": "themes/gota/menu/button-settings-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "f7c140241a4622a6de165d98ce68b078e88c1c3ee8474dfe621d18a9d4104635",
+      "bytes": 1336
+    },
+    {
+      "path": "themes/gota/menu/button-settings.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "dae037964bc4b6ec60fe737efab5db2ea55498d5254fc2859c9523715094e288",
+      "bytes": 979949
+    },
+    {
+      "path": "themes/gota/menu/button-single-player-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "e33610a5c9cd9df256284824c7a103d670c12ddef5e1f2259d21360be2a28103",
+      "bytes": 1472
+    },
+    {
+      "path": "themes/gota/menu/button-single-player.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "ac5bfed671c740b3c06275850f1091def94a30003cb7ce8c3891ca5828979782",
+      "bytes": 891387
+    },
+    {
+      "path": "themes/gota/menu/logo-prompt.txt",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "9c27a4e376e595771276a137a9f3bafb2a4ea3e94babcc51d15935382038da04",
+      "bytes": 1799
+    },
+    {
+      "path": "themes/gota/menu/logo.png",
+      "license": "CC0-1.0",
+      "source": "gotaMenu",
+      "sha256": "a973cf4d8002648885456e55d5389c57fc2f6362a645536a851d687ca975ab9e",
+      "bytes": 2210350
+    },
+    {
       "path": "themes/heartleaf/heartleaf_logo.png",
       "license": "CC0-1.0",
       "source": "heartleafLogo",
@@ -19558,6 +19907,55 @@
       "source": "project",
       "sha256": "0e1a0f31e960a467e71b76648c2fadaca30c04c2e194a1aa9a09300eec861a7d",
       "bytes": 665396
+    },
+    {
+      "path": "themes/lvd/menu/README.md",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "de9e0d9e45dc6f0babaaae1c7387c4326630b643e08a094e84e6278f31c84384",
+      "bytes": 747
+    },
+    {
+      "path": "themes/lvd/menu/background.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "ce2b23c432ffc1576a9f2a44025eae2c8c1b3cafbdd21538c67f1984007e2d23",
+      "bytes": 2541781
+    },
+    {
+      "path": "themes/lvd/menu/button-exit.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "bc9d0dd382441aab070661e578a6f74e04c1783a15d9c52500afa57509545c7b",
+      "bytes": 801727
+    },
+    {
+      "path": "themes/lvd/menu/button-multiplayer.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "7f651f643270ec660a1b815995ed88c6d8de7251502bd1805622e7caf8bbeb09",
+      "bytes": 665480
+    },
+    {
+      "path": "themes/lvd/menu/button-settings.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "4004ba27640ad2ee7c0d8e472b26da3dfb9231cd8310b092251478e41f43ae16",
+      "bytes": 835748
+    },
+    {
+      "path": "themes/lvd/menu/button-single-player.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "1316167e6a3b19fa68f83cd43bdfb1dc491f88bffc45faf29efe0889dd1bb2cc",
+      "bytes": 807194
+    },
+    {
+      "path": "themes/lvd/menu/logo.png",
+      "license": "CC0-1.0",
+      "source": "lvdMenu",
+      "sha256": "26af4430c0237ac3c3f959bc0a4abf742025c51a4d2167b87c23b2bf0377bb3b",
+      "bytes": 460924
     },
     {
       "path": "themes/lvd/unit-symbols-prompt.txt",
