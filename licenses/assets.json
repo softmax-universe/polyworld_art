@@ -15987,15 +15987,15 @@
       "path": "sounds/kenney-rpg/PROVENANCE.json",
       "license": "CC0-1.0",
       "source": "sound-kenney-rpg",
-      "sha256": "d9b3fc220a47a1128447c2733c5ac474baa651da8c4a9cae59ffedc15c3eeec6",
-      "bytes": 13119
+      "sha256": "8c2e1894ee0fb3dc84ca26c5b7954bf5075ae93b1e015d32dc195b49dc603c80",
+      "bytes": 19219
     },
     {
       "path": "sounds/kenney-rpg/SOURCE.txt",
       "license": "CC0-1.0",
       "source": "sound-kenney-rpg",
-      "sha256": "be3feb75749ffbbb0ff566dd8e72fb1af8e052ded851840a5672302f7e08addf",
-      "bytes": 541
+      "sha256": "953045cd4ebcb985c356ac6359bf97dbc8eec7aad07ac43dfbfd7ab31f37518b",
+      "bytes": 701
     },
     {
       "path": "sounds/kenney-rpg/bookClose.ogg",
@@ -16003,6 +16003,34 @@
       "source": "sound-kenney-rpg",
       "sha256": "b11387c96b1043ea1fcdfe596f96ec648cfc711a14923d5618541f5f800ab331",
       "bytes": 7044
+    },
+    {
+      "path": "sounds/kenney-rpg/bookFlip2.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "0de59cf176cfef05596246bdcd223b72f3b8f520ae8f6b5f15f1bf867cae1581",
+      "bytes": 9620
+    },
+    {
+      "path": "sounds/kenney-rpg/bookFlip3.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "7762e890b71d0ad3decf4c075bee55ec2807d2b301e73586d4d0ce6d4d823156",
+      "bytes": 7073
+    },
+    {
+      "path": "sounds/kenney-rpg/bookPlace1.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "58b696c9712d35bcbc22b8a1c7a58cfaf8f1003dd48667d2eeb61f3ae989299c",
+      "bytes": 7458
+    },
+    {
+      "path": "sounds/kenney-rpg/bookPlace3.ogg",
+      "license": "CC0-1.0",
+      "source": "sound-kenney-rpg",
+      "sha256": "33e5544ca41b437d4346e3658868e3e11ee76c6f7b353c7ffdc36f39335da924",
+      "bytes": 7060
     },
     {
       "path": "sounds/kenney-rpg/chop.ogg",

@@ -453,6 +453,226 @@
         ],
         "purpose": "Short wooden impact for an axe chopping wood."
       }
+    },
+    {
+      "file": "bookFlip3.ogg",
+      "cues": [
+        "CardDrawSound"
+      ],
+      "original_file": "OGG/bookFlip3.ogg",
+      "original_sha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be",
+      "sha256": "7762e890b71d0ad3decf4c075bee55ec2807d2b301e73586d4d0ce6d4d823156",
+      "bytes": 7073,
+      "duration_seconds": 0.20844,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          978,
+          10170
+        ],
+        "gain_linear": 1.26721295,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "purpose": "Short paper movement for a card draw or discard."
+      }
+    },
+    {
+      "file": "bookFlip2.ogg",
+      "cues": [
+        "CardDrawSound"
+      ],
+      "original_file": "OGG/bookFlip2.ogg",
+      "original_sha256": "3409042acbfaebc24c1a6327dc073e36f9250841712e96c5040da566a97df73c",
+      "sha256": "0de59cf176cfef05596246bdcd223b72f3b8f520ae8f6b5f15f1bf867cae1581",
+      "bytes": 9620,
+      "duration_seconds": 0.4219,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          0,
+          18606
+        ],
+        "gain_linear": 1.93963592,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "purpose": "Alternate paper movement for a card draw or discard."
+      }
+    },
+    {
+      "file": "bookPlace1.ogg",
+      "cues": [
+        "CardPlaySound"
+      ],
+      "original_file": "OGG/bookPlace1.ogg",
+      "original_sha256": "26f3ce60fbde85b678b0ad7f6624d80535fe540d88232ad1e38e47a96662d977",
+      "sha256": "58b696c9712d35bcbc22b8a1c7a58cfaf8f1003dd48667d2eeb61f3ae989299c",
+      "bytes": 7458,
+      "duration_seconds": 0.24161,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          0,
+          10655
+        ],
+        "gain_linear": 0.63093809,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "purpose": "Soft tabletop placement for a played card."
+      }
+    },
+    {
+      "file": "bookPlace3.ogg",
+      "cues": [
+        "CardPlaySound"
+      ],
+      "original_file": "OGG/bookPlace3.ogg",
+      "original_sha256": "b1afa711e1cabfe5b2c56e20e20e0f9d82142d067727447fa992ddc43dbdb06e",
+      "sha256": "33e5544ca41b437d4346e3658868e3e11ee76c6f7b353c7ffdc36f39335da924",
+      "bytes": 7060,
+      "duration_seconds": 0.24186,
+      "transformations": {
+        "decoded": "mono signed 16-bit PCM, 44100 Hz",
+        "output": "mono Ogg Vorbis, 44100 Hz, quality 6",
+        "processing_sample_rate": 44100,
+        "output_sample_rate": 44100,
+        "encoder": "libvorbis",
+        "vorbis_vendor": "ffmpeg",
+        "encoding_tool_version": "ffmpeg version 9.0 Copyright (c) 2000-2026 the FFmpeg developers",
+        "vorbis_quality": 6,
+        "encoding_command": [
+          "ffmpeg",
+          "-v",
+          "error",
+          "-f",
+          "s16le",
+          "-ac",
+          "1",
+          "-ar",
+          "44100",
+          "-i",
+          "-",
+          "-map_metadata",
+          "-1",
+          "-c:a",
+          "libvorbis",
+          "-q:a",
+          "6",
+          "-fflags",
+          "+bitexact",
+          "-flags:a",
+          "+bitexact",
+          "-f",
+          "ogg",
+          "-"
+        ],
+        "source_crop_samples_44100": [
+          178,
+          10844
+        ],
+        "gain_linear": 0.63093809,
+        "fade_in_samples": 88,
+        "fade_out_samples": 441,
+        "purpose": "Alternate tabletop placement for a played card."
+      }
     }
   ]
 }

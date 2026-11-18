@@ -10,3 +10,6 @@ LICENSE.txt preserves the original bundled notice verbatim.
 CC0-1.0.txt contains the complete official CC0 legal code.
 PROVENANCE.json records source and output hashes, original filenames,
 cue assignments, and exact audio transformations. Only used clips imported.
+
+Card draw, discard, and placement clips added on 2026-11-17 from the same
+original archive. Their source files and processing are recorded in PROVENANCE.json.
