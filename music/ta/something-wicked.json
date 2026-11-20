@@ -1,0 +1,44 @@
+{
+  "title": "Something Wicked",
+  "origin": "User-provided local WAV of Ross Bugden's \"Epic Horror Synth Trailer Music - Something Wicked (Copyright and Royalty Free)\", published September 25, 2016 on his YouTube channel, requested as looping Titan Ascension music on 2026-11-20.",
+  "source_filename": "47 Something Wicked.wav",
+  "source_sha256": "4fd4cb493f25167e38f57ec66a5177938c4b98287bbe71b28c43800692b4bc1a",
+  "source_bytes": 38345014,
+  "source_format": {
+    "codec": "PCM signed 24-bit little-endian",
+    "channels": 2,
+    "sample_rate_hz": 44100,
+    "frames": 6390123,
+    "duration_seconds": 144.9
+  },
+  "source_embedded_comment": "encoder=FL Studio 11",
+  "creator": "Ross Bugden",
+  "license": "LicenseRef-RossBugden-free-with-credit",
+  "license_note": "Free to use and monetize without permission, with credit to Ross Bugden (link his channel or video, or simply mention his name), per the author's video description. The author enables YouTube Content ID through Symphonic Distributions; YouTube claims on videos using the track are released by disputing with \"I have properly credited Ross Bugden on my video.\" This asset is excluded from the repository default CC0 dedication.",
+  "credit": "Music: \"Something Wicked\" by Ross Bugden.",
+  "file": "something-wicked.ogg",
+  "sha256": "63341460ae515f429bf8b65ab5d794e95a3286863eb06ff37dcec7f3b3f53a16",
+  "bytes": 2179132,
+  "encoding": {
+    "encoder": "libvorbis",
+    "quality": 5,
+    "channels": 2,
+    "sample_rate_hz": 44100,
+    "duration_seconds": 144.9,
+    "tool_version": "oggenc from vorbis-tools 1.4.3",
+    "command": [
+      "oggenc",
+      "-Q",
+      "-q",
+      "5",
+      "-t",
+      "Something Wicked",
+      "-a",
+      "Ross Bugden",
+      "-o",
+      "something-wicked.ogg",
+      "47 Something Wicked.wav"
+    ],
+    "processing": "Full recording retained, including original stereo mix, timing, level, and ending. No trimming, normalization, fades, or pitch changes."
+  }
+}
